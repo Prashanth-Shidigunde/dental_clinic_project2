@@ -1,0 +1,1468 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#17453e" />
+<title>Smile Aura Dental &amp; Wellness — Family Dentistry in Bangalore</title>
+<meta name="description" content="Smile Aura Dental & Wellness — affordable family dentistry in Bangalore. Packages for individuals, families and senior citizens. Book online, leave feedback, or message the clinic on WhatsApp." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Inter:wght@300..600&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --radius:.875rem;
+  --bg:#fbfaf6; --fg:#16332d; --card:#ffffff;
+  --primary:#1d5a52; --primary-fg:#faf7ee;
+  --secondary:#e9f1ec; --secondary-fg:#2a4b44;
+  --muted:#eef2ee; --muted-fg:#5c7671;
+  --accent:#f3e8d4; --accent-fg:#4a382a;
+  --destructive:#c23b3b;
+  --border:#d9e2dc; --input:#d2ddd6;
+  --cream:#f8f3e8; --sand:#f2e6d3; --sage:#dfece3;
+  --pine:#17453e; --pine-deep:#12352f;
+  --whatsapp:#2f9364;
+  --display:"Fraunces","Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+img,svg{display:block}
+input,select,textarea{font:inherit;color:inherit}
+::selection{background:rgba(29,90,82,.18)}
+:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.serif{font-family:var(--display)}
+.ico{width:1rem;height:1rem;flex:none}
+.ico-sm{width:.875rem;height:.875rem}
+.text-wa{color:var(--whatsapp)}
+.text-primary{color:var(--primary)}
+.container{width:100%;max-width:72rem;margin:0 auto;padding:0 1.25rem}
+.wrap-narrow{max-width:76rem}
+.section{padding:4rem 0}
+@media(min-width:640px){.section{padding:5rem 0}}
+.eyebrow{display:inline-flex;align-items:center;gap:.5rem;font-size:11px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--primary)}
+.eyebrow-line{display:block;width:1.5rem;height:1px;background:rgba(29,90,82,.4)}
+.h2{font-family:var(--display);font-weight:600;font-size:clamp(1.8rem,4vw,2.75rem);line-height:1.08;letter-spacing:-.015em;text-wrap:balance;margin-top:1rem}
+.lead{font-size:15px;line-height:1.75;color:var(--muted-fg);margin-top:1rem}
+.lead-sm{font-size:13px;line-height:1.85;color:var(--muted-fg)}
+.tiny-muted{font-size:11px;line-height:1.6;color:var(--muted-fg)}
+.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.mt-6{margin-top:1.5rem}.mt-7{margin-top:1.75rem}.mt-8{margin-top:2rem}.mt-10{margin-top:2.5rem}
+@media(min-width:640px){.section{padding:5rem 0}}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;height:2.75rem;padding:0 1.25rem;border-radius:999px;background:var(--primary);color:var(--primary-fg);font-size:.875rem;font-weight:500;border:1px solid transparent;transition:background .2s,border-color .2s,color .2s,transform .2s;text-align:center}
+.btn:hover{background:#174840}
+.btn-outline{background:transparent;border-color:var(--border);color:var(--fg)}
+.btn-outline:hover{background:rgba(23,69,62,.045);border-color:#bccfc6}
+.btn-cream{background:var(--cream);color:var(--pine)}
+.btn-cream:hover{background:#fdfaf2}
+.btn-ghost{background:transparent;color:var(--fg)}
+.btn-ghost:hover{background:var(--muted)}
+.btn-wa{background:var(--whatsapp);color:#fff}
+.btn-wa:hover{background:#297f56}
+.btn-sm{height:2.25rem;padding:0 .9rem;font-size:.75rem}
+.btn-xs{height:2rem;padding:0 .75rem;font-size:.6875rem}
+.btn-lg{height:3rem;font-size:.875rem}
+.btn-block{width:100%}
+.btn:disabled{opacity:.55;cursor:not-allowed}
+.btn-pine-outline{background:transparent;border-color:rgba(248,243,232,.2);color:var(--cream)}
+.btn-pine-outline:hover{background:rgba(248,243,232,.1)}
+.link-quiet{color:var(--muted-fg);transition:color .2s}
+.link-quiet:hover{color:var(--fg)}
+
+/* brand */
+.brand{display:inline-flex;align-items:center;gap:.625rem;min-width:0}
+.brand-mark{display:grid;place-items:center;width:2.5rem;height:2.5rem;border-radius:.9rem;background:var(--pine);color:var(--cream);flex:none}
+.brand-mark svg{width:1.25rem;height:1.25rem}
+.brand-text{display:flex;flex-direction:column;line-height:1;min-width:0}
+.brand-name{font-family:var(--display);font-size:1.2rem;font-weight:600;letter-spacing:-.01em;white-space:nowrap}
+@media(min-width:640px){.brand-name{font-size:1.35rem}}
+.brand-sub{margin-top:.4rem;font-size:.55rem;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--muted-fg);white-space:nowrap;display:none}
+@media(min-width:640px){.brand-sub{display:block}}
+.brand-invert .brand-mark{background:var(--cream);color:var(--pine)}
+.brand-invert .brand-name{color:var(--cream)}
+.brand-invert .brand-sub{color:rgba(248,243,232,.6)}
+
+/* top band + header */
+.band{background:var(--pine);color:rgba(248,243,232,.85)}
+.band-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.5rem 1.25rem;font-size:11px;letter-spacing:.02em;max-width:72rem;margin:0 auto}
+.band-inner p{display:flex;align-items:center;gap:.5rem}
+.band-dot{width:6px;height:6px;border-radius:999px;background:rgba(248,243,232,.7);flex:none}
+.band a{display:none;align-items:center;gap:.375rem;transition:color .2s}
+.band a:hover{color:var(--cream)}
+@media(min-width:640px){.band a{display:inline-flex}}
+.site-header{position:sticky;top:0;z-index:40;border-bottom:1px solid rgba(217,226,220,.7);background:rgba(251,250,246,.88);backdrop-filter:blur(16px)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:.75rem;height:4.5rem;max-width:72rem;margin:0 auto;padding:0 1rem}
+@media(min-width:640px){.header-inner{gap:1.5rem;padding:0 1.25rem}}
+.main-nav{display:none;align-items:center;gap:1.5rem}
+@media(min-width:1024px){.main-nav{display:flex}}
+.nav-link{font-size:.875rem;color:var(--muted-fg);transition:color .2s;position:relative;padding-bottom:2px}
+.nav-link:hover{color:var(--fg)}
+.nav-link.active{color:var(--fg);font-weight:600}
+.nav-link.active::after{content:"";position:absolute;left:0;bottom:0;height:1.5px;width:100%;background:var(--primary)}
+.header-actions{display:flex;align-items:center;gap:.5rem;flex:none}
+.header-wa{display:none}
+@media(min-width:640px){.header-wa{display:inline-flex}}
+.header-book span.short{display:inline}
+.header-book span.long{display:none}
+@media(min-width:640px){.header-book span.short{display:none}.header-book span.long{display:inline}}
+.menu-btn{display:grid;place-items:center;width:2.5rem;height:2.5rem;border-radius:999px;border:1px solid var(--border)}
+@media(min-width:1024px){.menu-btn{display:none}}
+.mobile-nav{display:none;border-top:1px solid rgba(217,226,220,.7);background:var(--card)}
+.mobile-nav.open{display:block}
+@media(min-width:1024px){.mobile-nav.open{display:none}}
+.mobile-nav ul{max-width:72rem;margin:0 auto;padding:.5rem 1.25rem;display:flex;flex-direction:column}
+.mobile-nav li a{display:block;padding:.875rem 0;border-bottom:1px solid rgba(217,226,220,.6);font-size:.875rem}
+.mobile-nav li:last-child a{border-bottom:0}
+.mobile-nav .wa-link{display:flex;align-items:center;gap:.5rem;padding:.875rem 0;font-size:.875rem;font-weight:500;color:var(--whatsapp);border-top:1px solid rgba(217,226,220,.6)}
+
+/* hero */
+.hero{position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:-1;pointer-events:none}
+.hero-bg .blob-a{position:absolute;top:-12rem;right:-12%;width:38rem;height:38rem;border-radius:999px;background:rgba(223,236,227,.7);filter:blur(64px)}
+.hero-bg .blob-b{position:absolute;top:6rem;left:-18%;width:30rem;height:30rem;border-radius:999px;background:rgba(242,230,211,.7);filter:blur(64px)}
+.hero-bg .fade{position:absolute;inset-inline:0;bottom:0;height:10rem;background:linear-gradient(to bottom,transparent,var(--bg))}
+.hero-grid{display:grid;gap:4rem;align-items:center;padding:3.5rem 1.25rem 5rem;max-width:72rem;margin:0 auto}
+@media(min-width:1024px){.hero-grid{grid-template-columns:1.02fr .98fr;padding-top:5rem;padding-bottom:6rem}}
+.pill-live{display:inline-flex;align-items:center;gap:.5rem;border-radius:999px;border:1px solid rgba(29,90,82,.15);background:rgba(255,255,255,.7);padding:.375rem .75rem;font-size:11px;font-weight:500;color:var(--primary);backdrop-filter:blur(6px)}
+.ping{position:relative;display:flex;width:8px;height:8px}
+.ping::before{content:"";position:absolute;inset:0;border-radius:999px;background:rgba(29,90,82,.5);animation:ping 1.6s cubic-bezier(0,0,.2,1) infinite}
+.ping span{position:relative;width:8px;height:8px;border-radius:999px;background:var(--primary)}
+@keyframes ping{75%,100%{transform:scale(2.4);opacity:0}}
+.hero h1{font-family:var(--display);font-weight:600;font-size:clamp(2.5rem,7vw,4.15rem);line-height:1.02;letter-spacing:-.02em;text-wrap:balance;margin-top:1.5rem}
+.hero h1 em{font-style:italic;font-weight:400;color:var(--primary)}
+.hero-actions{display:flex;flex-direction:column;gap:.75rem;margin-top:2rem}
+@media(min-width:640px){.hero-actions{flex-direction:row}}
+.hero-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:2.25rem}
+.chip{display:inline-flex;align-items:center;gap:.5rem;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.7);padding:.5rem .875rem;font-size:11px;color:var(--muted-fg)}
+.chip svg{color:var(--primary)}
+.hero-art{position:relative;width:100%;max-width:30rem;margin:0 auto}
+.hours-card{position:relative;overflow:hidden;border-radius:2.25rem;background:var(--pine);color:var(--cream);padding:1.5rem;box-shadow:0 40px 90px -40px rgba(23,69,62,.75)}
+@media(min-width:640px){.hours-card{padding:2rem}}
+.hours-ring{position:absolute;border-radius:999px;border:1px solid rgba(248,243,232,.1);pointer-events:none}
+.hours-ring.one{top:-6rem;right:-4rem;width:16rem;height:16rem}
+.hours-ring.two{top:-3.5rem;right:-2rem;width:11rem;height:11rem}
+.hours-tooth{position:absolute;right:-2rem;bottom:-3rem;width:13rem;height:13rem;color:rgba(248,243,232,.055);pointer-events:none}
+.hours-top{position:relative;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.hours-top .label{font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:rgba(248,243,232,.55)}
+.hours-top .open{border-radius:999px;background:rgba(248,243,232,.1);padding:.25rem .625rem;font-size:10px;font-weight:500;color:rgba(248,243,232,.85)}
+.hours-tagline{position:relative;font-family:var(--display);font-size:1.9rem;line-height:1.15;font-weight:500;margin-top:1.75rem;text-wrap:balance}
+.hours-sheet{position:relative;margin-top:1.5rem;border-radius:1rem;background:var(--cream);padding:1rem;color:var(--pine);box-shadow:0 10px 15px -3px rgba(23,69,62,.2)}
+.hours-sheet .row{display:flex;align-items:center;justify-content:space-between;gap:.75rem}
+.hours-sheet .kicker{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:rgba(23,69,62,.5)}
+.hours-sheet .time{font-family:var(--display);font-size:1.25rem;font-weight:600;margin-top:.25rem}
+.hours-sheet .tick-round{display:grid;place-items:center;width:2.5rem;height:2.5rem;border-radius:999px;background:var(--sage);color:var(--pine);flex:none}
+.hours-sheet .foot{display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin-top:1rem;border-top:1px solid rgba(23,69,62,.1);padding-top:.75rem;font-size:11px;color:rgba(23,69,62,.7)}
+.hours-stats{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin-top:1.25rem}
+.hours-stats div{border-radius:.75rem;background:rgba(248,243,232,.06);padding:.625rem .75rem;text-align:center}
+.hours-stats b{display:block;font-family:var(--display);font-size:1.125rem;font-weight:600}
+.hours-stats span{display:block;margin-top:.125rem;font-size:10px;color:rgba(248,243,232,.55)}
+.float-card{position:absolute;display:flex;align-items:center;gap:.625rem;border-radius:1rem;border:1px solid var(--border);background:var(--card);padding:.75rem .875rem;box-shadow:0 20px 25px -5px rgba(23,69,62,.1)}
+.float-card .fi{display:grid;place-items:center;width:2.25rem;height:2.25rem;border-radius:999px;flex:none}
+.float-card b{display:block;font-size:11px;font-weight:600}
+.float-card small{display:block;font-size:10px;color:var(--muted-fg)}
+.float-offer{top:6rem;left:-1rem;display:none;animation:float 7s ease-in-out infinite}
+@media(min-width:640px){.float-offer{display:flex}}
+.float-offer .fi{background:var(--sand);color:var(--accent-fg)}
+.float-call{right:-.5rem;bottom:-1.25rem}
+.float-call .fi{background:var(--whatsapp);color:#fff}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+
+/* cards & surfaces */
+.pine-section{background:var(--pine);color:var(--cream);position:relative;overflow:hidden}
+.cream-section{background:var(--cream)}
+.card{border:1px solid var(--border);background:var(--card);border-radius:1.5rem}
+.card-pad{padding:1.5rem}
+@media(min-width:640px){.card-pad{padding:2rem}}
+.panel{position:relative;border-radius:1.5rem;border:1px solid var(--border);background:var(--card);padding:1.5rem;box-shadow:0 30px 70px -40px rgba(23,69,62,.35)}
+@media(min-width:640px){.panel{padding:2rem}}
+.badge{display:inline-flex;align-items:center;border-radius:999px;padding:.2rem .6rem;font-size:10px;font-weight:500;line-height:1.4}
+.badge-sage{background:var(--sage);color:var(--pine)}
+.badge-cream{background:rgba(248,243,232,.12);color:var(--cream)}
+.badge-accent{background:var(--accent);color:var(--accent-fg)}
+.badge-pine{background:var(--pine);color:var(--cream)}
+.badge-muted{background:var(--muted);color:var(--muted-fg)}
+.badge-dot{background:var(--sand);color:var(--accent-fg)}
+.tick{display:grid;place-items:center;width:1rem;height:1rem;border-radius:999px;background:var(--sage);color:var(--pine);flex:none;margin-top:2px}
+.tick svg{width:.625rem;height:.625rem;stroke-width:3}
+.check-list{display:flex;flex-direction:column;gap:.625rem}
+.check-list li{display:flex;align-items:flex-start;gap:.5rem;font-size:.875rem}
+.soft-list li{font-size:.75rem;line-height:1.6;color:var(--muted-fg)}
+.divider{border:0;border-top:1px solid rgba(217,226,220,.7);margin:0}
+
+/* service grid */
+.service-grid{display:grid;gap:1rem}
+@media(min-width:640px){.service-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.service-grid{grid-template-columns:repeat(3,1fr)}}
+.service-card{display:flex;flex-direction:column;height:100%;border-radius:1.5rem;border:1px solid var(--border);background:var(--card);padding:1.5rem;transition:transform .3s,border-color .3s,box-shadow .3s}
+.service-card:hover{transform:translateY(-4px);border-color:rgba(29,90,82,.25);box-shadow:0 24px 60px -32px rgba(23,69,62,.35)}
+.service-top{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem}
+.service-icon{display:grid;place-items:center;width:2.75rem;height:2.75rem;border-radius:1rem;background:var(--sage);color:var(--pine);transition:background .3s,color .3s}
+.service-card:hover .service-icon{background:var(--pine);color:var(--cream)}
+.service-card h3{font-family:var(--display);font-size:1.35rem;font-weight:600;margin-top:1.5rem}
+.service-card p{font-size:.875rem;line-height:1.65;color:var(--muted-fg);margin-top:.5rem;flex:1}
+.service-foot{display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(217,226,220,.7);margin-top:1.25rem;padding-top:1rem;font-size:.75rem;color:var(--muted-fg)}
+.service-foot .note{display:flex;align-items:center;gap:.375rem}
+.service-foot .book{display:flex;align-items:center;gap:.25rem;font-weight:500;color:var(--primary)}
+
+/* marquee */
+.marquee{background:var(--pine);color:var(--cream);border-block:1px solid rgba(18,53,47,.2);padding:1rem 0;overflow:hidden}
+.marquee-track{display:flex;width:max-content;animation:marquee 42s linear infinite}
+.marquee-item{display:flex;align-items:center;gap:1.75rem;padding:0 1.75rem}
+.marquee-item span{font-size:10px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;white-space:nowrap;color:rgba(248,243,232,.65)}
+.marquee-item svg{width:.875rem;height:.875rem;color:rgba(248,243,232,.25)}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* split sections */
+.split{display:grid;gap:2.5rem}
+@media(min-width:1024px){.split{grid-template-columns:1fr 1.1fr;align-items:center}}
+.split-even{display:grid;gap:3rem}
+@media(min-width:1024px){.split-even{grid-template-columns:1fr 1fr;align-items:center}}
+.section-head{display:flex;flex-direction:column;gap:1.25rem}
+@media(min-width:640px){.section-head{flex-direction:row;align-items:flex-end;justify-content:space-between}}
+.pkg-link{display:flex;align-items:center;justify-content:space-between;gap:1rem;border-radius:1rem;border:1px solid rgba(248,243,232,.1);background:rgba(248,243,232,.055);padding:1rem 1.25rem;transition:background .2s}
+.pkg-link:hover{background:rgba(248,243,232,.1)}
+.pkg-link b{display:block;font-size:.875rem;font-weight:500}
+.pkg-link small{display:block;margin-top:.125rem;font-size:11px;color:rgba(248,243,232,.5)}
+.pkg-link .meta{display:flex;align-items:center;gap:.375rem;font-size:.75rem;color:rgba(248,243,232,.7);flex:none}
+.tooth-ghost{position:absolute;color:rgba(248,243,232,.05);pointer-events:none}
+
+/* doctor */
+.doctor-grid{display:grid;gap:2.5rem}
+@media(min-width:1024px){.doctor-grid{grid-template-columns:.85fr 1.15fr;align-items:center}}
+.doctor-card{position:relative;overflow:hidden;max-width:24rem;margin:0 auto;border-radius:2rem;border:1px solid var(--border);background:linear-gradient(135deg,var(--sage),var(--cream) 55%,var(--sand));padding:2rem;text-align:center}
+.doctor-avatar{position:relative;display:grid;place-items:center;width:7rem;height:7rem;margin:0 auto;border-radius:999px;border:1px solid rgba(23,69,62,.1);background:rgba(251,250,246,.7);backdrop-filter:blur(4px);font-family:var(--display);font-size:2.25rem;font-weight:600;color:var(--pine)}
+.doctor-card .name{position:relative;font-family:var(--display);font-size:1.5rem;font-weight:600;margin-top:1.25rem}
+.doctor-card .role{position:relative;margin-top:.25rem;font-size:11px;letter-spacing:.02em;color:var(--primary)}
+.doctor-card .note{position:relative;margin-top:.75rem;font-size:.875rem;line-height:1.6;color:var(--muted-fg)}
+.info-grid{display:grid;gap:.75rem;margin-top:1.75rem}
+@media(min-width:640px){.info-grid{grid-template-columns:1fr 1fr}}
+.info-box{border-radius:1rem;border:1px solid var(--border);background:var(--card);padding:1rem}
+.info-box svg{color:var(--primary)}
+.info-box b{display:block;margin-top:.5rem;font-size:.75rem;font-weight:600}
+.info-box p{margin-top:.375rem;font-size:.75rem;line-height:1.6;color:var(--muted-fg)}
+.info-box p strong{color:rgba(22,51,45,.8);font-weight:400}
+
+/* faq */
+.faq{border-radius:1.5rem;border:1px solid var(--border);background:var(--card);padding:0 1.5rem}
+.faq details{border-bottom:1px solid rgba(217,226,220,.7)}
+.faq details:last-child{border-bottom:0}
+.faq summary{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.1rem 0;font-size:15px;font-weight:500;cursor:pointer;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .chev{transition:transform .2s;color:var(--muted-fg)}
+.faq details[open] summary .chev{transform:rotate(180deg)}
+.faq .answer{padding:0 1.5rem 1.15rem 0;font-size:.875rem;line-height:1.75;color:var(--muted-fg)}
+
+/* cta band */
+.cta-card{position:relative;overflow:hidden;border-radius:2rem;background:var(--pine);color:var(--cream);padding:2.5rem 1.5rem}
+@media(min-width:640px){.cta-card{padding:3rem 2.5rem}}
+.cta-inner{position:relative;display:flex;flex-direction:column;gap:1.5rem}
+@media(min-width:1024px){.cta-inner{flex-direction:row;align-items:center;justify-content:space-between}}
+.cta-card h2{font-family:var(--display);font-size:clamp(1.8rem,3.5vw,2.25rem);font-weight:600;text-wrap:balance}
+.cta-card p{margin-top:.75rem;max-width:32rem;font-size:.875rem;line-height:1.7;color:rgba(248,243,232,.6)}
+.cta-actions{display:flex;flex-direction:column;gap:.5rem;flex:none}
+@media(min-width:640px){.cta-actions{flex-direction:row}}
+
+/* page hero */
+.page-hero{position:relative;overflow:hidden;border-bottom:1px solid rgba(217,226,220,.6)}
+.page-hero .glow-a{position:absolute;top:-10rem;right:-10%;width:32rem;height:32rem;border-radius:999px;background:rgba(223,236,227,.6);filter:blur(64px);z-index:-1}
+.page-hero .glow-b{position:absolute;top:2.5rem;left:-15%;width:24rem;height:24rem;border-radius:999px;background:rgba(242,230,211,.6);filter:blur(64px);z-index:-1}
+.page-hero-inner{position:relative;max-width:72rem;margin:0 auto;padding:3.5rem 1.25rem 3rem}
+@media(min-width:640px){.page-hero-inner{padding-top:5rem;padding-bottom:4rem}}
+.page-hero h1{font-family:var(--display);font-size:clamp(2.3rem,5.5vw,3.6rem);font-weight:600;line-height:1.05;letter-spacing:-.02em;text-wrap:balance;margin-top:1rem;max-width:48rem}
+.page-hero .lead{max-width:36rem}
+
+/* footer */
+.site-footer{border-top:1px solid var(--border);background:var(--bg);padding-top:3.5rem;padding-bottom:2rem}
+.footer-grid{display:grid;gap:2.5rem}
+@media(min-width:768px){.footer-grid{grid-template-columns:1.4fr 1fr 1fr 1.2fr}}
+.footer-grid h4{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase}
+.footer-grid ul{margin-top:1rem;display:flex;flex-direction:column;gap:.625rem;font-size:.75rem;color:var(--muted-fg)}
+.footer-grid ul a:hover{color:var(--fg)}
+.footer-bottom{display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:1rem;border-top:1px solid rgba(217,226,220,.7);margin-top:3rem;padding-top:1.5rem;font-size:11px;color:var(--muted-fg)}
+@media(min-width:640px){.footer-bottom{flex-direction:row;align-items:center}}
+.footer-links{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.25rem}
+.footer-addr{font-size:.75rem;line-height:1.6}
+.underline{text-decoration:underline;text-underline-offset:2px}
+
+/* whatsapp fab */
+.fab{position:fixed;right:1.25rem;bottom:1.25rem;z-index:50;display:flex;align-items:center;gap:.75rem}
+.fab-hint{display:none;border-radius:999px;border:1px solid var(--border);background:var(--card);padding:.375rem .75rem;font-size:.75rem;font-weight:500;box-shadow:0 4px 6px -1px rgba(0,0,0,.1);opacity:0;transform:translateX(.5rem);transition:.2s}
+@media(min-width:640px){.fab-hint{display:block}}
+.fab:hover .fab-hint{opacity:1;transform:translateX(0)}
+.fab-btn{position:relative;display:grid;place-items:center;width:3.5rem;height:3.5rem;border-radius:999px;background:var(--whatsapp);color:#fff;box-shadow:0 20px 25px -5px rgba(47,147,100,.35);transition:transform .2s}
+.fab:hover .fab-btn{transform:translateY(-2px) scale(1.05)}
+.fab-btn::before{content:"";position:absolute;inset:0;border-radius:999px;box-shadow:0 0 0 4px rgba(47,147,100,.15)}
+.fab-btn svg{position:relative;width:1.75rem;height:1.75rem}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<style>
+/* forms */
+.form-card{border-radius:2rem;border:1px solid var(--border);background:var(--card);padding:1.5rem;box-shadow:0 30px 80px -45px rgba(23,69,62,.45)}
+@media(min-width:640px){.form-card{padding:2rem}}
+.form-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;border-bottom:1px solid rgba(217,226,220,.7);padding-bottom:1.25rem;margin-bottom:1.5rem}
+.form-head h2{font-family:var(--display);font-size:1.5rem;font-weight:600}
+.form-head p{margin-top:.25rem;font-size:.75rem;color:var(--muted-fg)}
+.form-body{display:flex;flex-direction:column;gap:1.25rem}
+.form-row{display:grid;gap:1rem}
+@media(min-width:640px){.form-row{grid-template-columns:1fr 1fr}}
+.field{display:flex;flex-direction:column;gap:.5rem}
+.field label{font-size:.875rem;font-weight:500}
+.field label .opt{color:var(--muted-fg);font-weight:400}
+.input,.select,.textarea{width:100%;height:2.75rem;border-radius:.75rem;border:1px solid var(--input);background:var(--card);padding:0 .875rem;font-size:.875rem;transition:border-color .2s,box-shadow .2s}
+.textarea{height:auto;min-height:6rem;padding:.75rem .875rem;resize:vertical;line-height:1.6}
+.input:focus,.select:focus,.textarea:focus{outline:none;border-color:rgba(29,90,82,.55);box-shadow:0 0 0 3px rgba(29,90,82,.12)}
+.input[aria-invalid="true"],.select[aria-invalid="true"],.textarea[aria-invalid="true"]{border-color:var(--destructive)}
+.select{appearance:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%235c7671' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='m6 9 6 6 6-6'/></svg>");background-repeat:no-repeat;background-position:right .75rem center;padding-right:2.25rem}
+.err{font-size:.8125rem;color:var(--destructive);min-height:0}
+.form-note{text-align:center;font-size:.75rem;line-height:1.6;color:var(--muted-fg)}
+.stars{display:flex;align-items:center;gap:.375rem}
+.star-btn{display:grid;place-items:center;width:2.75rem;height:2.75rem;border-radius:.75rem;border:1px solid var(--border);background:var(--bg);color:var(--muted-fg);transition:.2s}
+.star-btn:hover{border-color:rgba(29,90,82,.4);color:var(--primary)}
+.star-btn.on{border-color:var(--accent);background:var(--accent);color:var(--accent-fg)}
+.star-btn svg{width:1.25rem;height:1.25rem}
+.stars-label{margin-left:.5rem;font-size:.875rem;color:var(--muted-fg)}
+.success{display:flex;flex-direction:column;align-items:center;padding:2.5rem .5rem;text-align:center}
+.success-ico{display:grid;place-items:center;width:3.5rem;height:3.5rem;border-radius:999px;background:var(--sage);color:var(--pine)}
+.success-ico.pine{background:var(--pine);color:var(--cream)}
+.success-ico svg{width:1.75rem;height:1.75rem;stroke-width:2.5}
+.success h3{font-family:var(--display);font-size:1.5rem;font-weight:600;margin-top:1.25rem}
+.success p{max-width:24rem;margin-top:.5rem;font-size:.875rem;line-height:1.65;color:var(--muted-fg)}
+.success-actions{display:flex;flex-direction:column;gap:.5rem;width:100%;max-width:20rem;margin-top:1.5rem}
+.mini-link-card{display:flex;align-items:center;gap:.75rem;border-radius:1rem;border:1px solid var(--border);background:var(--card);padding:.75rem 1rem;transition:border-color .2s}
+.mini-link-card:hover{border-color:rgba(29,90,82,.3)}
+.mini-ico{display:grid;place-items:center;width:2.25rem;height:2.25rem;border-radius:999px;flex:none}
+.mini-ico.wa{background:var(--whatsapp);color:#fff}
+.mini-ico.sage{background:var(--sage);color:var(--pine)}
+.mini-ico.sand{background:var(--sand);color:var(--accent-fg)}
+.mini-link-card b{display:block;font-size:.75rem;font-weight:600}
+.mini-link-card small{display:block;font-size:11px;color:var(--muted-fg)}
+.mini-link-card .arrow{margin-left:auto;color:var(--muted-fg)}
+
+/* package cards */
+.pkg-grid{display:grid;gap:1rem}
+@media(min-width:768px){.pkg-grid{grid-template-columns:repeat(3,1fr)}}
+.pkg-card{display:flex;flex-direction:column;height:100%;border-radius:1.5rem;border:1px solid var(--border);background:var(--bg);padding:1.5rem;position:relative;overflow:hidden}
+.pkg-card.pine{background:var(--pine);color:var(--cream);border-color:transparent;box-shadow:0 30px 70px -40px rgba(23,69,62,.6)}
+.pkg-card.sand{background:rgba(242,230,211,.6)}
+.pkg-card h2{font-family:var(--display);font-size:1.5rem;font-weight:600;margin-top:1rem}
+.pkg-card .aud{margin-top:.25rem;font-size:.75rem;color:var(--muted-fg)}
+.pkg-card.pine .aud{color:rgba(248,243,232,.6)}
+.pkg-card ul{margin-top:1.25rem;flex:1}
+.pkg-card.pine .check-list li{color:rgba(248,243,232,.85)}
+.pkg-card.pine .tick{background:rgba(248,243,232,.15);color:var(--cream)}
+.pkg-card .btn{margin-top:1.5rem}
+.pkg-big{display:flex;flex-direction:column;justify-content:center;padding:1.25rem 0;flex:1}
+.pkg-big .pct{font-family:var(--display);font-size:3rem;font-weight:600;color:var(--primary)}
+.pkg-big p{font-size:.875rem;color:var(--muted-fg);margin-top:.25rem}
+
+/* steps */
+.steps{display:flex;flex-direction:column;gap:.75rem;margin-top:1.75rem}
+.step{display:flex;gap:1rem;border-radius:1rem;border:1px solid rgba(217,226,220,.7);background:rgba(251,250,246,.7);padding:1rem}
+.step b{font-family:var(--display);font-size:1.125rem;font-weight:600;color:rgba(29,90,82,.5)}
+.step p{font-size:.875rem;font-weight:600}
+.step small{display:block;margin-top:.25rem;font-size:.75rem;line-height:1.6;color:var(--muted-fg)}
+.stats-row{display:flex;flex-wrap:wrap;gap:1rem 2rem;border-top:1px solid rgba(217,226,220,.7);margin-top:2.25rem;padding-top:1.75rem}
+.stats-row b{display:block;font-family:var(--display);font-size:1.5rem;font-weight:600;color:var(--primary)}
+.stats-row span{font-size:11px;color:var(--muted-fg)}
+.promise{display:flex;gap:1rem;margin-top:1.25rem}
+.promise .pi{display:grid;place-items:center;width:2.5rem;height:2.5rem;border-radius:.75rem;border:1px solid rgba(29,90,82,.1);background:var(--bg);color:var(--primary);flex:none}
+.promise h3{font-size:.875rem;font-weight:600}
+.promise p{margin-top:.25rem;font-size:.875rem;line-height:1.65;color:var(--muted-fg)}
+.at-glance .row{display:flex;gap:.875rem;padding:1rem 0;border-bottom:1px solid rgba(217,226,220,.7)}
+.at-glance .row:last-child{border-bottom:0}
+.at-glance .row svg{color:var(--primary);margin-top:2px}
+.at-glance b{display:block;font-size:.75rem;font-weight:600}
+.at-glance p{margin-top:.25rem;font-size:.75rem;line-height:1.6;color:var(--muted-fg)}
+.at-glance p span{color:rgba(22,51,45,.8)}
+
+/* contact */
+.channels{display:grid;gap:1rem}
+@media(min-width:768px){.channels{grid-template-columns:repeat(3,1fr)}}
+.channel{display:block;border-radius:1.5rem;border:1px solid var(--border);background:var(--card);padding:1.5rem;transition:transform .3s,border-color .3s,box-shadow .3s}
+.channel:hover{transform:translateY(-4px);border-color:rgba(29,90,82,.25);box-shadow:0 24px 60px -32px rgba(23,69,62,.35)}
+.channel .ci{display:grid;place-items:center;width:2.75rem;height:2.75rem;border-radius:1rem;background:var(--sage);color:var(--pine);transition:.3s}
+.channel:hover .ci{background:var(--pine);color:var(--cream)}
+.channel:nth-child(2) .ci{background:var(--whatsapp);color:#fff}
+.channel:nth-child(3) .ci{background:var(--sand);color:var(--accent-fg)}
+.channel h2{font-family:var(--display);font-size:1.25rem;font-weight:600;margin-top:1.25rem}
+.channel .big{font-size:.875rem;color:rgba(22,51,45,.8);margin-top:.25rem}
+.channel small{display:block;margin-top:.5rem;font-size:11px;line-height:1.6;color:var(--muted-fg)}
+.channel .go{display:inline-flex;align-items:center;gap:.25rem;margin-top:1rem;font-size:.75rem;font-weight:500;color:var(--primary)}
+.contact-2{display:grid;gap:1rem;margin-top:1rem}
+@media(min-width:1024px){.contact-2{grid-template-columns:1fr 1fr}}
+.hours-list{margin-top:.5rem}
+.hours-list .row{display:flex;flex-direction:column;gap:.25rem;padding:1rem 0;border-bottom:1px solid rgba(217,226,220,.7);font-size:.875rem}
+@media(min-width:640px){.hours-list .row{flex-direction:row;align-items:center;justify-content:space-between;gap:1rem}}
+.hours-list dt{color:var(--muted-fg)}
+.hours-list dd{font-weight:500}
+.offer-note{margin-top:.75rem;border-radius:.75rem;background:rgba(242,230,211,.6);padding:1rem;font-size:.75rem;line-height:1.6;color:var(--accent-fg)}
+.directions{position:relative;overflow:hidden;border-radius:1.5rem;background:var(--pine);padding:1.5rem;color:var(--cream)}
+@media(min-width:640px){.directions{padding:2rem}}
+
+/* auth + dashboard */
+.center-page{position:relative;display:flex;min-height:100vh;align-items:center;justify-content:center;overflow:hidden;background:var(--bg);padding:3rem 1.25rem}
+.center-page .glow{position:absolute;border-radius:999px;filter:blur(64px);z-index:-1}
+.auth-card{width:100%;max-width:28rem}
+.auth-brand{display:flex;justify-content:center}
+.auth-panel{margin-top:2rem;overflow:hidden;border-radius:1.5rem;border:1px solid rgba(217,226,220,.8);background:var(--card);box-shadow:0 30px 80px -45px rgba(23,69,62,.45)}
+.auth-head{padding:1.75rem 1.5rem 1.25rem;text-align:center}
+.auth-ico{display:grid;place-items:center;width:2.75rem;height:2.75rem;margin:0 auto .9rem;border-radius:999px;background:var(--sage);color:var(--pine)}
+.auth-head h1{font-family:var(--display);font-size:1.5rem;font-weight:600}
+.auth-head p{margin-top:.5rem;font-size:.75rem;line-height:1.6;color:var(--muted-fg)}
+.auth-body{padding:0 1.5rem 1.25rem}
+.auth-row{display:flex;align-items:center;gap:.5rem;margin-top:.375rem}
+.input-wrap{position:relative;flex:1}
+.input-wrap svg{position:absolute;left:.75rem;top:.9rem;color:var(--muted-fg)}
+.input-wrap .input{padding-left:2.25rem}
+.otp-row{display:flex;justify-content:center;gap:.5rem}
+.otp-row input{width:2.5rem;height:3rem;text-align:center;font-size:1.125rem;font-weight:600;border-radius:.75rem;border:1px solid var(--input);background:var(--card)}
+.auth-foot{padding:0 1.5rem 1.5rem;display:flex;flex-direction:column;gap:.5rem}
+.auth-back{padding:1rem 1.5rem 1.25rem;text-align:center}
+.auth-back a,.auth-alt{display:inline-flex;align-items:center;gap:.375rem;font-size:.75rem;color:var(--muted-fg)}
+.auth-strip{border-top:1px solid var(--border);background:var(--muted);padding:.875rem 1.5rem;text-align:center;font-size:10px;letter-spacing:.02em;color:var(--muted-fg)}
+.blocked{display:flex;min-height:100vh;align-items:center;justify-content:center;background:var(--bg);padding:1.5rem}
+.blocked .card{width:100%;max-width:28rem;padding:2rem;text-align:center}
+.blocked .lock{display:grid;place-items:center;width:3rem;height:3rem;margin:0 auto 1rem;border-radius:999px;background:var(--muted);color:var(--muted-fg)}
+.blocked h1{font-size:1.25rem;font-weight:600}
+.blocked p{margin-top:.5rem;font-size:.875rem;line-height:1.6;color:var(--muted-fg)}
+.blocked .actions{display:flex;flex-direction:column;gap:.5rem;margin-top:1.5rem}
+.dash-header{position:sticky;top:0;z-index:30;border-bottom:1px solid rgba(217,226,220,.7);background:rgba(251,250,246,.88);backdrop-filter:blur(16px)}
+.dash-header .container{display:flex;height:4.5rem;align-items:center;justify-content:space-between;gap:1rem}
+.dash-head-actions{display:flex;align-items:center;gap:.5rem}
+.dash-head-actions .view{display:none}
+@media(min-width:640px){.dash-head-actions .view{display:inline-flex}}
+.dash-main{max-width:72rem;margin:0 auto;width:100%;padding:2.5rem 1.25rem}
+.dash-kicker{font-size:11px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--primary)}
+.dash-title{font-family:var(--display);font-size:clamp(1.8rem,4vw,2.25rem);font-weight:600;letter-spacing:-.01em;margin-top:.5rem}
+.dash-sub{margin-top:.5rem;font-size:.875rem;color:var(--muted-fg)}
+.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-top:2rem}
+@media(min-width:1024px){.stat-grid{grid-template-columns:repeat(4,1fr)}}
+.stat{border-radius:1rem;border:1px solid var(--border);background:var(--card);padding:1rem}
+@media(min-width:640px){.stat{padding:1.25rem}}
+.stat .si{display:grid;place-items:center;width:2rem;height:2rem;border-radius:.5rem;background:var(--sage);color:var(--pine)}
+.stat b{display:block;margin-top:.75rem;font-family:var(--display);font-size:1.5rem;font-weight:600}
+.stat span{display:block;margin-top:.125rem;font-size:11px;color:var(--muted-fg)}
+.tabs{display:inline-flex;width:100%;max-width:24rem;height:2.75rem;border-radius:999px;background:var(--muted);padding:.25rem;margin-top:2.5rem}
+.tab{flex:1;border-radius:999px;font-size:.75rem;font-weight:500;color:var(--muted-fg);display:flex;align-items:center;justify-content:center;gap:.375rem}
+.tab .count{border-radius:999px;background:var(--bg);padding:.05rem .375rem;font-size:10px;color:var(--muted-fg)}
+.tab.active{background:var(--card);color:var(--fg);box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.tab-panel{margin-top:1.25rem}
+.req{display:flex;flex-direction:column;gap:.75rem;border-radius:1rem;border:1px solid var(--border);background:var(--card);padding:1.25rem}
+.req-top{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:.75rem}
+.req-name{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem}
+.req-name h2{font-size:.875rem;font-weight:600}
+.req-svc{margin-top:.25rem;font-size:.75rem;color:var(--muted-fg)}
+.req-time{font-size:10px;color:var(--muted-fg)}
+.req-meta{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;font-size:.75rem}
+.req-meta a,.req-meta span{display:flex;align-items:center;gap:.375rem;color:rgba(22,51,45,.8)}
+.req-meta svg{color:var(--muted-fg)}
+.req-notes{border-radius:.75rem;background:rgba(238,242,238,.6);padding:.625rem .875rem;font-size:.75rem;line-height:1.6;color:var(--muted-fg)}
+.req-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.75rem;border-top:1px solid rgba(217,226,220,.7);padding-top:1rem}
+.req-status{display:flex;align-items:center;gap:.5rem;font-size:10px;color:var(--muted-fg)}
+.select-mini{height:2rem;width:7.5rem;border-radius:999px;font-size:.75rem;padding-left:.75rem;padding-right:1.75rem;background-position:right .5rem center;border-color:var(--input);background-color:var(--card)}
+.fb-grid{display:grid;gap:.75rem}
+@media(min-width:768px){.fb-grid{grid-template-columns:1fr 1fr}}
+.fb{display:flex;flex-direction:column;border-radius:1rem;border:1px solid var(--border);background:var(--card);padding:1.25rem}
+.fb-top{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem}
+.fb-name{display:flex;align-items:center;gap:.5rem}
+.fb-name h2{font-size:.875rem;font-weight:600}
+.fb-meta{margin-top:.25rem;font-size:11px;color:var(--muted-fg)}
+.stars-view{display:flex;align-items:center;gap:2px;color:#c8922a}
+.stars-view svg{width:.875rem;height:.875rem;fill:currentColor}
+.stars-view svg.off{fill:none;stroke:currentColor}
+.fb-msg{margin-top:.75rem;flex:1;font-size:.875rem;line-height:1.6;color:rgba(22,51,45,.85)}
+.fb-foot{display:flex;align-items:center;justify-content:space-between;gap:.75rem;border-top:1px solid rgba(217,226,220,.7);margin-top:1rem;padding-top:1rem}
+.fb-foot .r{display:flex;align-items:center;gap:.375rem;font-size:11px;color:var(--muted-fg)}
+.empty{display:flex;flex-direction:column;align-items:center;border-radius:1rem;border:1px dashed var(--border);background:rgba(255,255,255,.6);padding:3.5rem 1.5rem;text-align:center}
+.empty-ico{display:grid;place-items:center;width:3rem;height:3rem;border-radius:999px;background:var(--sage);color:var(--pine)}
+.empty b{display:block;margin-top:1rem;font-size:.875rem}
+.empty p{max-width:20rem;margin-top:.25rem;font-size:.75rem;line-height:1.6;color:var(--muted-fg)}
+.empty .btn{margin-top:1.25rem}
+.wa-test{display:flex;flex-direction:column;gap:.75rem;border-radius:1rem;border:1px solid var(--border);background:var(--cream);padding:1.25rem;margin-top:2rem}
+@media(min-width:640px){.wa-test{flex-direction:row;align-items:center;justify-content:space-between}}
+.wa-test .left{display:flex;align-items:flex-start;gap:.75rem}
+.wa-test .wi{display:grid;place-items:center;width:2.25rem;height:2.25rem;border-radius:999px;background:var(--whatsapp);color:#fff;flex:none}
+.wa-test b{display:block;font-size:.75rem;font-weight:600}
+.wa-test p{margin-top:.25rem;font-size:11px;line-height:1.6;color:var(--muted-fg)}
+.wa-test code{border-radius:.25rem;background:var(--bg);padding:.0625rem .25rem;font-size:10px}
+.dash-note{display:flex;align-items:center;justify-content:center;gap:.375rem;margin-top:1.5rem;font-size:11px;color:var(--muted-fg)}
+
+/* not found */
+.nf{position:relative;display:flex;min-height:100vh;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;background:var(--bg);padding:0 1.25rem;text-align:center}
+.nf .glow{position:absolute;top:-8rem;left:50%;transform:translateX(-50%);width:28rem;height:28rem;border-radius:999px;background:rgba(223,236,227,.5);filter:blur(64px);z-index:-1}
+.nf .kicker{margin-top:2.5rem;font-size:11px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--primary)}
+.nf h1{font-family:var(--display);max-width:28rem;margin-top:.75rem;font-size:clamp(1.8rem,4vw,2.25rem);font-weight:600;letter-spacing:-.01em;text-wrap:balance}
+.nf p{max-width:22rem;margin-top:.75rem;font-size:.875rem;line-height:1.6;color:var(--muted-fg)}
+.nf .actions{display:flex;flex-direction:column;gap:.5rem;margin-top:1.75rem}
+@media(min-width:640px){.nf .actions{flex-direction:row}}
+.fade-up{animation:fadeUp .55s ease-out both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.marquee-track,.float-offer,.fade-up,.ping::before{animation:none}html{scroll-behavior:auto}}
+</style>
+<script>
+"use strict";
+
+/* ---------- content ---------- */
+const CLINIC = {
+  name: "Smile Aura",
+  legalName: "Smile Aura Dental & Wellness",
+  descriptor: "Dental & Wellness",
+  tagline: "Confident smiles, a better day.",
+  phoneDisplay: "+91 99456 78901",
+  phoneHref: "tel:+919945678901",
+  addressLine1: "# 42/A, 8th Cross, Indiranagar 100 Feet Road",
+  addressLine2: "Adyar, Bangalore \u2013 560038",
+  visitNote: "Walk in and experience the difference.",
+  mapsUrl: "https://maps.app.goo.gl/ExampleFakeMapLink",
+  hours: [
+    { days: "Monday \u2013 Sunday \u00b7 Morning", time: "10:00 am \u2013 1:00 pm" },
+    { days: "Monday \u2013 Sunday \u00b7 Evening", time: "5:30 pm \u2013 8:30 pm" }
+  ],
+  whatsappNumber: "919945678901"
+};
+
+const DOCTOR = {
+  name: "Dr. Arjun Mehta",
+  role: "Dentist \u00b7 Consultations & family care",
+  initials: "AM",
+  note: "Consults every day \u2014 morning and evening \u2014 for check-ups, family packages, restorations and whitening."
+};
+
+const SERVICES = [
+  { name: "Complete care", eyebrow: "Family dentistry", description: "Solutions for all ages \u2014 check-ups, fillings, cleaning and the everyday dental needs of your whole family.", note: "For all ages", icon: "heart" },
+  { name: "Preventive dentistry", eyebrow: "Prevention", description: "Planning for a lifetime of dental health with regular check-ups, scaling and early treatment.", note: "Lifetime planning", icon: "shield" },
+  { name: "Cosmetic dentistry", eyebrow: "Aesthetics", description: "We offer the latest advances to improve the look of your smile, from bonding to professional whitening.", note: "Latest advances", icon: "sparkles" },
+  { name: "Restorative dentistry", eyebrow: "Restoration", description: "Tooth-coloured restorations that repair decay and damage while matching your natural teeth.", note: "Tooth-coloured", icon: "wrench" },
+  { name: "Crowns & bridges", eyebrow: "Crowns", description: "Protect and preserve weakened or missing teeth with well-fitted crowns and bridges.", note: "Protect & preserve", icon: "crown" },
+  { name: "Dental whitening", eyebrow: "Whitening", description: "Professional whitening to brighten your smile safely, for a fresher and more confident look.", note: "Brighten your smile", icon: "sun" }
+];
+
+const PACKAGES = [
+  { name: "Individual package", audience: "For one patient", items: ["Consultation", "Check-up", "Scaling (cleaning)", "Up to 1 filling", "X-Ray (1)"], featured: false },
+  { name: "Family package", audience: "2 adults + 2 kids", items: ["Consultation", "Check-up", "Scaling (cleaning)", "Up to 4 fillings"], featured: true },
+  { name: "Senior citizen offer", audience: "Patients aged 60+", items: ["20% discount on all services"], featured: false }
+];
+
+const FAQS = [
+  { question: "Do I need an appointment?", answer: "Walk-ins are welcome every day. You can also send the booking form or call +91 98866 25316 so the clinic can keep a slot ready for you." },
+  { question: "What are the consultation timings?", answer: "The clinic is open Monday to Sunday, with consultations from 10:00 am to 1:00 pm and again from 5:30 pm to 8:30 pm." },
+  { question: "What is included in the individual and family packages?", answer: "The individual package includes a consultation, check-up, scaling (cleaning), up to one filling and one X-ray. The family package for two adults and two kids includes a consultation, check-up, scaling and up to four fillings." },
+  { question: "Is there a senior citizen discount?", answer: "Yes \u2014 patients aged 60 and above receive a 20% discount on all services. Mention the offer at reception when you visit." },
+  { question: "How much will my treatment cost?", answer: "Package and service charges are displayed at the clinic, so you can see the cost before choosing a treatment. Ask the team to walk you through the options during your consultation." },
+  { question: "Will the booking form message go to WhatsApp?", answer: "It does. When you submit the form, your details are saved to the clinic inbox and a ready-written WhatsApp message opens so you can send it in one tap. You can also message us directly using the green button." }
+];
+
+const TIME_SLOTS = ["10:00 \u2013 11:00 am", "11:00 am \u2013 1:00 pm", "5:30 \u2013 6:30 pm", "6:30 \u2013 7:30 pm", "7:30 \u2013 8:30 pm"];
+const NAV_LINKS = [{ label: "Home", to: "/" }, { label: "Treatments", to: "/treatments" }, { label: "Packages", to: "/packages" }, { label: "About", to: "/about" }, { label: "Contact", to: "/contact" }];
+const PAGE_TITLES = {
+  "/": CLINIC.legalName + " \u2014 Family Dentistry in Bangalore",
+  "/treatments": "Treatments \u2014 " + CLINIC.legalName,
+  "/packages": "Packages & Offers \u2014 " + CLINIC.legalName,
+  "/about": "About Us \u2014 " + CLINIC.legalName,
+  "/book": "Book an Appointment \u2014 " + CLINIC.legalName,
+  "/feedback": "Patient Feedback \u2014 " + CLINIC.legalName,
+  "/contact": "Contact & Visit \u2014 " + CLINIC.legalName,
+  "/auth": "Staff Sign In \u2014 " + CLINIC.legalName,
+  "/dashboard": "Staff Console \u2014 " + CLINIC.legalName
+};
+
+/* ---------- icons ---------- */
+const ICONS = {
+  arrowRight: '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
+  arrowLeft: '<path d="M19 12H5"/><path d="m12 19-7-7 7-7"/>',
+  check: '<path d="M20 6 9 17l-5-5"/>',
+  chevronDown: '<path d="m6 9 6 6 6-6"/>',
+  phone: '<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>',
+  calendar: '<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/>',
+  calendarCheck: '<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/><path d="m9 16 2 2 4-4"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/>',
+  mapPin: '<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>',
+  menu: '<path d="M4 6h16M4 12h16M4 18h16"/>',
+  x: '<path d="M18 6 6 18M6 6l12 12"/>',
+  star: '<path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3.1-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9z"/>',
+  users: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>',
+  heart: '<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>',
+  shield: '<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/>',
+  sparkles: '<path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3z"/>',
+  wrench: '<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94z"/>',
+  crown: '<path d="M3 8l4 3 5-6 5 6 4-3-2 9H5z"/><path d="M5 20h14"/>',
+  sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+  badgePercent: '<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m15 9-6 6"/><circle cx="9" cy="9" r=".6"/><circle cx="15" cy="15" r=".6"/>',
+  inbox: '<path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/>',
+  mail: '<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/>',
+  logout: '<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/>',
+  lock: '<rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>',
+  quote: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>',
+  asterisk: '<path d="M12 6v12M17.2 9 6.8 15M6.8 9l10.4 6"/>',
+  info: '<circle cx="12" cy="12" r="9"/><path d="M12 16v-4M12 8h.01"/>'
+};
+
+function ico(name, cls) {
+  return '<svg class="ico ' + (cls || '') + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (ICONS[name] || '') + '</svg>';
+}
+function waIcon(cls) {
+  return '<svg class="ico ' + (cls || '') + '" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm0 18.15c-1.52 0-3.01-.41-4.3-1.18l-.31-.18-3.12.82.83-3.04-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.54 0 8.23 3.69 8.23 8.23 0 4.54-3.69 8.26-8.11 8.26Zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.06-.39-2.02-1.25-.75-.67-1.25-1.49-1.4-1.74-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.72 2.63 4.17 3.69.58.25 1.04.4 1.4.51.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.11-.23-.17-.48-.29Z"/></svg>';
+}
+function tooth(cls) {
+  return '<svg class="ico ' + (cls || '') + '" viewBox="0 0 48 48" fill="currentColor" aria-hidden="true"><path d="M24 5c-4.5 0-6.2 2-9.5 2C9.5 7 6 11 6 16.8c0 5.2 2.3 8.6 4.2 12.5 2 4.1 2.1 13.7 5.8 13.7 3 0 2.6-8.5 5.3-8.5 1.7 0 1.7 3.5 2.7 3.5s1-3.5 2.7-3.5c2.7 0 2.3 8.5 5.3 8.5 3.7 0 3.8-9.6 5.8-13.7C39.7 25.4 42 22 42 16.8 42 11 38.5 7 33.5 7 30.2 7 28.5 5 24 5Z"/></svg>';
+}
+
+/* ---------- helpers ---------- */
+const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const waLink = (msg) => 'https://wa.me/' + CLINIC.whatsappNumber + '?text=' + encodeURIComponent(msg);
+function todayISO() {
+  const now = new Date();
+  const local = new Date(now.getTime() - now.getTimezoneOffset() * 60000);
+  return local.toISOString().slice(0, 10);
+}
+function isoPlus(days) {
+  const d = new Date();
+  d.setDate(d.getDate() + days);
+  const local = new Date(d.getTime() - d.getTimezoneOffset() * 60000);
+  return local.toISOString().slice(0, 10);
+}
+function formatDateLabel(iso) {
+  const d = new Date(iso + 'T12:00:00');
+  if (isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+}
+function formatShortDate(iso) {
+  const d = new Date(iso + 'T12:00:00');
+  if (isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString(undefined, { weekday: 'short', day: 'numeric', month: 'short' });
+}
+function formatReceived(ts) {
+  return new Date(ts).toLocaleString(undefined, { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' });
+}
+function buildAppointmentMessage(input) {
+  return [
+    '*New appointment request \u2014 ' + CLINIC.name + '*', '',
+    '*Name:* ' + input.name,
+    '*Phone:* ' + input.phone,
+    input.email ? '*Email:* ' + input.email : null,
+    '*Treatment:* ' + input.service,
+    '*Preferred date:* ' + formatDateLabel(input.preferredDate),
+    '*Preferred time:* ' + input.preferredTime,
+    input.notes && input.notes.trim() ? '*Notes:* ' + input.notes.trim() : null,
+    '', 'Sent from the website booking form.'
+  ].filter(function (l) { return l !== null; }).join('\n');
+}
+function buildFeedbackMessage(input) {
+  return [
+    '*Patient feedback \u2014 ' + CLINIC.name + '*', '',
+    '*Rating:* ' + '\u2605'.repeat(input.rating) + '\u2606'.repeat(5 - input.rating) + ' (' + input.rating + '/5)',
+    '*Name:* ' + input.name,
+    input.treatment ? '*Treatment:* ' + input.treatment : null,
+    '*Message:* ' + input.message.trim(),
+    '', 'Sent from the website feedback form.'
+  ].filter(function (l) { return l !== null; }).join('\n');
+}
+
+/* ---------- demo store ---------- */
+const KEY_B = 'smileaura.bookings';
+const KEY_F = 'smileaura.feedback';
+const KEY_S = 'smileaura.staff';
+const KEY_SEED = 'smileaura.seeded';
+
+function readJSON(key, fallback) {
+  try { const raw = localStorage.getItem(key); return raw ? JSON.parse(raw) : fallback; } catch (e) { return fallback; }
+}
+function writeJSON(key, value) {
+  try { localStorage.setItem(key, JSON.stringify(value)); } catch (e) {}
+}
+function seedDemo() {
+  if (readJSON(KEY_SEED, false)) return;
+  writeJSON(KEY_B, [
+    { id: 'demo-b1', name: 'Priya S.', phone: '+91 98450 11223', email: 'priya@example.com', service: 'Complete care', preferredDate: isoPlus(2), preferredTime: '5:30 \u2013 6:30 pm', notes: 'Two adults and one child \u2014 an evening slot would suit us best.', status: 'new', created: Date.now() - 1000 * 60 * 60 * 5 },
+    { id: 'demo-b2', name: 'Rahul M.', phone: '+91 99000 44556', email: '', service: 'Dental whitening', preferredDate: isoPlus(1), preferredTime: '11:00 am \u2013 1:00 pm', notes: '', status: 'contacted', created: Date.now() - 1000 * 60 * 60 * 26 }
+  ]);
+  writeJSON(KEY_F, [
+    { id: 'demo-f1', name: 'Anita R.', rating: 5, treatment: 'Cosmetic dentistry', message: 'The whitening was gentle and the team explained every step before starting. My smile looks natural, not overdone.', status: 'new', created: Date.now() - 1000 * 60 * 60 * 8 },
+    { id: 'demo-f2', name: 'Vikram T.', rating: 4, treatment: 'Crowns & bridges', message: 'Fitted a crown in two visits and matched the shade really well. Waiting time in the evening could be a little shorter.', status: 'reviewed', created: Date.now() - 1000 * 60 * 60 * 52 }
+  ]);
+  writeJSON(KEY_SEED, true);
+}
+function getBookings() { return readJSON(KEY_B, []); }
+function setBookings(list) { writeJSON(KEY_B, list); }
+function getFeedback() { return readJSON(KEY_F, []); }
+function setFeedback(list) { writeJSON(KEY_F, list); }
+function getStaff() { try { return sessionStorage.getItem(KEY_S) || ''; } catch (e) { return ''; } }
+function setStaff(email) { try { sessionStorage.setItem(KEY_S, email); } catch (e) {} }
+function clearStaff() { try { sessionStorage.removeItem(KEY_S); } catch (e) {} }
+
+const STATUS_STYLES = {
+  new: { label: 'New', className: 'badge badge-dot' },
+  contacted: { label: 'Contacted', className: 'badge badge-sage' },
+  scheduled: { label: 'Scheduled', className: 'badge badge-pine' },
+  closed: { label: 'Closed', className: 'badge badge-muted' }
+};
+const STATUS_ORDER = ['new', 'contacted', 'scheduled', 'closed'];
+
+/* ---------- shared state ---------- */
+const state = {
+  menuOpen: false,
+  tab: 'requests',
+  bookingDone: null,
+  feedbackDone: null,
+  authStep: 'email',
+  authEmail: '',
+  rating: 0
+};
+
+/* ---------- layout pieces ---------- */
+function brandHTML(invert) {
+  return '<span class="brand' + (invert ? ' brand-invert' : '') + '">' +
+    '<span class="brand-mark">' + tooth() + '</span>' +
+    '<span class="brand-text"><span class="brand-name">' + CLINIC.name + '</span>' +
+    (invert ? '<span class="brand-sub">' + CLINIC.descriptor + '</span>' : '<span class="brand-sub">' + CLINIC.descriptor + '</span>') +
+    '</span></span>';
+}
+function isActive(path, to) {
+  return to === '/' ? path === '/' : path.indexOf(to) === 0;
+}
+function headerHTML(path) {
+  const links = NAV_LINKS.map(function (l) {
+    return '<a class="nav-link' + (isActive(path, l.to) ? ' active' : '') + '" href="#+' + l.to + '"' + (isActive(path, l.to) ? ' aria-current="page"' : '') + '>' + l.label + '</a>';
+  }).join('');
+  const mobile = NAV_LINKS.map(function (l) {
+    return '<li><a href="#+' + l.to + '"' + (isActive(path, l.to) ? ' class="active" style="font-weight:600"' : '') + '>' + l.label + '</a></li>';
+  }).join('') +
+    '<li><a href="#/feedback"' + (path === '/feedback' ? ' style="font-weight:600"' : '') + '>Patient feedback</a></li>' +
+    '<a class="wa-link" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I\'d like to ask about an appointment.') + '" target="_blank" rel="noreferrer">' + waIcon() + 'Chat on WhatsApp</a>';
+  return '<div class="band"><div class="band-inner">' +
+      '<p><span class="band-dot" aria-hidden="true"></span>Walk-ins welcome \u00b7 Open all 7 days</p>' +
+      '<a href="' + CLINIC.phoneHref + '">' + ico('phone', 'ico-sm') + CLINIC.phoneDisplay + '</a>' +
+    '</div></div>' +
+    '<header class="site-header"><div class="header-inner">' +
+      '<a href="#/" aria-label="' + CLINIC.legalName + ' home">' + brandHTML(false) + '</a>' +
+      '<nav class="main-nav" aria-label="Main">' + links + '</nav>' +
+      '<div class="header-actions">' +
+        '<a class="btn btn-outline btn-sm header-wa" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I\'d like to ask about an appointment.') + '" target="_blank" rel="noreferrer">' + waIcon('text-wa') + 'WhatsApp us</a>' +
+        '<a class="btn btn-sm header-book" href="#/book"><span class="short">Book</span><span class="long">Book appointment</span>' + ico('arrowRight', 'ico-sm') + '</a>' +
+        '<button class="menu-btn" type="button" data-action="menu" aria-label="' + (state.menuOpen ? 'Close menu' : 'Open menu') + '" aria-expanded="' + state.menuOpen + '">' + (state.menuOpen ? ico('x') : ico('menu')) + '</button>' +
+      '</div>' +
+    '</div>' +
+    '<div class="mobile-nav' + (state.menuOpen ? ' open' : '') + '"><nav aria-label="Mobile"><ul>' + mobile + '</ul></nav></div>' +
+    '</header>';
+}
+function footerHTML() {
+  const explore = NAV_LINKS.map(function (l) {
+    return '<li><a href="#+' + l.to + '">' + l.label + '</a></li>';
+  }).join('') +
+    '<li><a href="#/feedback">Leave feedback</a></li>' +
+    '<li><a href="#/book" style="color:var(--primary);font-weight:500">Book</a></li>';
+  const care = SERVICES.slice(0, 5).map(function (s) {
+    return '<li><a href="#/treatments">' + s.name + '</a></li>';
+  }).join('');
+  return '<footer class="site-footer"><div class="container"><div class="footer-grid">' +
+      '<div>' + brandHTML(false) +
+        '<p class="lead-sm" style="margin-top:1rem;max-width:20rem">' + CLINIC.tagline + ' Family dentistry in C.V. Raman Nagar, Bangalore.</p>' +
+        '<p class="tiny-muted" style="margin-top:1rem;display:flex;align-items:center;gap:.375rem">' + ico('clock', 'ico-sm') + 'Mon\u2013Sun \u00b7 10 am\u20131 pm &amp; 5:30\u20138:30 pm</p>' +
+      '</div>' +
+      '<div><h4>Explore</h4><ul>' + explore + '</ul></div>' +
+      '<div><h4>Care</h4><ul>' + care + '</ul></div>' +
+      '<div><h4>Visit</h4><ul>' +
+        '<li class="footer-addr"><a class="underline" href="' + CLINIC.mapsUrl + '" target="_blank" rel="noreferrer">' + CLINIC.addressLine1 + ', ' + CLINIC.addressLine2 + '</a></li>' +
+        '<li style="color:rgba(92,118,113,.8)">' + DOCTOR.name + '</li>' +
+        '<li><a class="underline" style="color:var(--fg);font-weight:500" href="' + CLINIC.phoneHref + '">' + CLINIC.phoneDisplay + '</a></li>' +
+        '<li><a style="color:var(--whatsapp);font-weight:500;display:inline-flex;align-items:center;gap:.375rem" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I\'d like to get in touch.') + '" target="_blank" rel="noreferrer">' + waIcon('ico-sm') + 'WhatsApp the clinic</a></li>' +
+      '</ul></div>' +
+    '</div>' +
+    '<div class="footer-bottom"><p>\u00a9 ' + new Date().getFullYear() + ' ' + CLINIC.legalName + '. All rights reserved.</p>' +
+      '<div class="footer-links"><span style="opacity:.7">Perfect Smile, Perfect You</span>' +
+      '<a style="font-weight:500;color:rgba(22,51,45,.8)" href="#/dashboard">Staff console</a>' +
+      '<span style="opacity:.7">Demo \u00b7 data stays in this browser</span></div>' +
+    '</div></div></footer>' +
+    '<a class="fab" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I\'d like to ask about an appointment.') + '" target="_blank" rel="noreferrer" aria-label="Chat with ' + CLINIC.name + ' on WhatsApp">' +
+      '<span class="fab-hint">Chat with the clinic</span><span class="fab-btn">' + waIcon() + '</span></a>';
+}
+function shell(path, main) {
+  return headerHTML(path) + '<main>' + main + '</main>' + footerHTML();
+}
+function eyebrow(text) {
+  return '<span class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>' + text + '</span>';
+}
+function ctaBand(title, description) {
+  title = title || 'Ready when you are.';
+  description = description || 'Walk in during consultation hours or book a time that suits your family. The clinic is open all seven days.';
+  return '<section class="section" style="border-top:1px solid rgba(217,226,220,.6)"><div class="container"><div class="cta-card">' +
+      tooth('tooth-ghost') + '<div class="cta-inner"><div><h2>' + title + '</h2><p>' + description + '</p></div>' +
+      '<div class="cta-actions"><a class="btn btn-cream" href="#/book">Book an appointment' + ico('arrowRight') + '</a>' +
+      '<a class="btn btn-pine-outline" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I\'d like to book an appointment.') + '" target="_blank" rel="noreferrer">' + waIcon() + 'WhatsApp us</a></div></div></div></div></section>';
+}
+function pageHero(kicker, title, description, extra) {
+  return '<section class="page-hero"><div class="glow-a" aria-hidden="true"></div><div class="glow-b" aria-hidden="true"></div>' +
+    tooth('tooth-ghost') + '<div class="page-hero-inner fade-up">' + eyebrow(kicker) + '<h1>' + title + '</h1><p class="lead">' + description + '</p>' +
+    (extra ? '<div style="margin-top:1.75rem">' + extra + '</div>' : '') + '</div></section>';
+}
+function faqAccordion(items) {
+  return '<div class="faq">' + items.map(function (f) {
+    return '<details><summary>' + f.question + ico('chevronDown', 'chev') + '</summary><div class="answer">' + f.answer + '</div></details>';
+  }).join('') + '</div>';
+}
+function serviceGrid(items) {
+  items = items || SERVICES;
+  return '<div class="service-grid">' + items.map(function (s) {
+    return '<a class="service-card" href="#/book">' +
+      '<div class="service-top"><span class="service-icon">' + ico(s.icon) + '</span><span class="badge badge-outline" style="border:1px solid rgba(217,226,220,.8);color:var(--muted-fg);font-weight:400;letter-spacing:.03em;padding:.2rem .6rem">' + s.eyebrow + '</span></div>' +
+      '<h3>' + s.name + '</h3><p>' + s.description + '</p>' +
+      '<div class="service-foot"><span class="note">' + ico('check', 'ico-sm text-primary') + s.note + '</span>' +
+      '<span class="book">Book' + ico('arrowRight', 'ico-sm') + '</span></div></a>';
+  }).join('') + '</div>';
+}
+function doctorFeature() {
+  return '<div class="doctor-grid">' +
+    '<div class="fade-up"><div class="doctor-card">' + tooth('tooth-ghost') +
+      '<div class="doctor-avatar">' + DOCTOR.initials + '</div>' +
+      '<p class="name">' + DOCTOR.name + '</p><p class="role">' + DOCTOR.role + '</p><p class="note">' + DOCTOR.note + '</p></div></div>' +
+    '<div class="fade-up">' + eyebrow('Your dentist') +
+      '<h2 class="h2">Care led by ' + DOCTOR.name + '.</h2>' +
+      '<p class="lead">From a child\'s first check-up to crowns and whitening for grandparents, Dr. Santosh K and the clinic team look after the whole family \u2014 with time to answer every question.</p>' +
+      '<div class="info-grid">' +
+        '<div class="info-box">' + ico('clock') + '<b>Consultation hours</b><p>Monday \u2013 Sunday<br />10:00 am \u2013 1:00 pm<br />5:30 pm \u2013 8:30 pm</p></div>' +
+        '<a class="info-box" href="' + CLINIC.phoneHref + '">' + ico('phone') + '<b>Appointments</b><p><strong>' + CLINIC.phoneDisplay + '</strong><br /><span style="color:var(--muted-fg)">Call or WhatsApp</span></p></a>' +
+      '</div>' +
+      '<div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.5rem">' +
+        '<a class="btn" href="#/book">Book a consultation' + ico('arrowRight') + '</a>' +
+        '<a class="btn btn-outline" href="#/contact">Visit the clinic</a>' +
+      '</div></div></div>';
+}
+
+/* ---------- home ---------- */
+function heroSection() {
+  const chips = [
+    { icon: 'calendarCheck', label: 'Open Mon\u2013Sun' },
+    { icon: 'users', label: 'Family package \u00b7 2 adults + 2 kids' },
+    { icon: 'badgePercent', label: '20% senior citizen offer' }
+  ].map(function (c) { return '<span class="chip">' + ico(c.icon, 'ico-sm') + c.label + '</span>'; }).join('');
+
+  return '<section class="hero"><div class="hero-bg" aria-hidden="true"><div class="blob-a"></div><div class="blob-b"></div><div class="fade"></div></div>' +
+    '<div class="hero-grid">' +
+      '<div class="fade-up">' +
+        '<span class="pill-live"><span class="ping" aria-hidden="true"><span></span></span>Walk-ins welcome \u00b7 Open 7 days</span>' +
+        '<h1>Sparkling smiles<br />for a <em>sparkling future.</em></h1>' +
+        '<p class="lead" style="max-width:32rem">Affordable family dentistry in C.V. Raman Nagar, Bangalore. From preventive check-ups to crowns, bridges and whitening \u2014 complete dental care for everyone in your family.</p>' +
+        '<div class="hero-actions"><a class="btn btn-lg" href="#/book">' + ico('calendarCheck') + 'Book your visit</a>' +
+        '<a class="btn btn-outline btn-lg" style="background:rgba(255,255,255,.6)" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I\'d like to know more about your dental packages.') + '" target="_blank" rel="noreferrer">' + waIcon('text-wa') + 'Ask on WhatsApp</a></div>' +
+        '<div class="hero-chips">' + chips + '</div>' +
+      '</div>' +
+      '<div class="hero-art fade-up" style="animation-delay:.15s">' +
+        '<div class="hours-card">' +
+          '<div class="hours-ring one" aria-hidden="true"></div><div class="hours-ring two" aria-hidden="true"></div>' + tooth('hours-tooth') +
+          '<div class="hours-top"><p class="label">Consultation hours</p><span class="open">Open 7 days</span></div>' +
+          '<p class="hours-tagline">Sparkling smiles start here.</p>' +
+          '<div class="hours-sheet"><div class="row"><div><p class="kicker">Monday \u2013 Sunday</p><p class="time">10:00 am \u2013 1:00 pm</p><p class="time">5:30 pm \u2013 8:30 pm</p></div>' +
+            '<span class="tick-round">' + ico('check') + '</span></div>' +
+            '<div class="foot"><span>Family dentistry</span><span>' + DOCTOR.name + '</span></div></div>' +
+          '<div class="hours-stats"><div><b>7</b><span>days a week</span></div><div><b>6</b><span>dental services</span></div><div><b>20%</b><span>senior offer</span></div></div>' +
+        '</div>' +
+        '<div class="float-card float-offer"><span class="fi">' + ico('badgePercent') + '</span><div><b>Senior citizen offer</b><small>20% off all services</small></div></div>' +
+        '<div class="float-card float-call"><span class="fi">' + waIcon() + '</span><div><b>Call or WhatsApp</b><small>' + CLINIC.phoneDisplay + '</small></div></div>' +
+      '</div>' +
+    '</div></section>';
+}
+function marqueeSection() {
+  const items = ['Family dentistry', 'Complete care for all ages', 'Preventive dentistry', 'Cosmetic dentistry', 'Restorative dentistry', 'Crowns & bridges', 'Dental whitening', 'Walk-ins welcome'];
+  const all = items.concat(items);
+  return '<section class="marquee"><div class="marquee-track">' + all.map(function (text) {
+    return '<div class="marquee-item"><span>' + text + '</span>' + ico('asterisk') + '</div>';
+  }).join('') + '</div></section>';
+}
+function treatmentsPreview() {
+  return '<section class="section"><div class="container">' +
+    '<div class="section-head"><div style="max-width:36rem">' + eyebrow('Treatments') +
+      '<h2 class="h2">Complete care for every smile.</h2>' +
+      '<p class="lead">Preventive, cosmetic and restorative dentistry for children and adults \u2014 all under one roof.</p></div>' +
+      '<a class="btn btn-outline btn-sm" href="#/treatments">All treatments' + ico('arrowRight') + '</a></div>' +
+    '<div style="margin-top:2.5rem">' + serviceGrid(SERVICES.slice(0, 3)) + '</div></div></section>';
+}
+function packagesPreview() {
+  const rows = PACKAGES.map(function (p, i) {
+    return '<a class="pkg-link" href="#/packages"><div><b>' + p.name + '</b><small>' + p.audience + '</small></div>' +
+      '<span class="meta">' + (i === 2 ? '20% off all services' : p.items.length + ' inclusions') + ico('arrowRight', 'ico-sm') + '</span></a>';
+  }).join('');
+  return '<section class="pine-section" style="padding:4rem 0"><div class="container" style="position:relative">' +
+    tooth('tooth-ghost') +
+    '<div class="split" style="position:relative">' +
+      '<div class="fade-up"><span class="eyebrow" style="color:rgba(248,243,232,.5)"><span class="eyebrow-line" style="background:rgba(248,243,232,.3)"></span>Packages &amp; offers</span>' +
+        '<h2 class="h2" style="color:var(--cream)">Packages for individuals, families and seniors.</h2>' +
+        '<p class="lead" style="color:rgba(248,243,232,.6);max-width:28rem">Simple package options with consultation, check-up, cleaning and fillings included. Package and service charges are displayed at the clinic.</p>' +
+        '<a class="btn btn-cream" style="margin-top:1.5rem" href="#/packages">Explore packages' + ico('arrowRight') + '</a></div>' +
+      '<div class="fade-up" style="display:flex;flex-direction:column;gap:.625rem">' + rows + '</div>' +
+    '</div></div></section>';
+}
+function faqPreview() {
+  return '<section class="section" style="background:rgba(255,255,255,.6);border-block:1px solid rgba(217,226,220,.6)"><div class="container">' +
+    '<div class="split" style="grid-template-columns:.8fr 1.2fr">' +
+      '<div class="fade-up">' + eyebrow('Good questions') + '<h2 class="h2">Details people ask us first.</h2>' +
+        '<p class="lead" style="max-width:24rem">Timings, packages, walk-ins and fees \u2014 the answers people ask before their first visit.</p>' +
+        '<a class="btn btn-outline btn-sm" style="margin-top:1.5rem" href="#/contact">More questions &amp; contact' + ico('arrowRight') + '</a></div>' +
+      '<div class="fade-up" style="animation-delay:.08s">' + faqAccordion(FAQS.slice(0, 3)) + '</div>' +
+    '</div></div></section>';
+}
+function homePage() {
+  return '<section class="section" style="padding-top:4rem;padding-bottom:4rem"><div class="container">' + doctorFeature() + '</div></section>' +
+    faqPreview() + ctaBand();
+}
+
+/* ---------- treatments ---------- */
+function treatmentsPage() {
+  const steps = [
+    { step: '01', title: 'Consultation', body: 'Talk through your concerns and get a clear recommendation from the dentist.' },
+    { step: '02', title: 'Check-up & cleaning', body: 'Scaling, polishing and fillings as needed, with individual and family packages available.' },
+    { step: '03', title: 'Treatment at the clinic', body: 'Crowns, bridges, restorations or whitening, planned around your family\'s schedule.' }
+  ].map(function (s) {
+    return '<div class="step"><b>' + s.step + '</b><div><p>' + s.title + '</p><small>' + s.body + '</small></div></div>';
+  }).join('');
+  const points = ['Open all seven days, morning and evening', 'Walk-ins welcome, appointments preferred at busy times', 'Package options for individuals and families']
+    .map(function (p) { return '<li><span class="tick">' + ico('check') + '</span>' + p + '</li>'; }).join('');
+
+  const hero = pageHero('Treatments', 'Complete care for every smile.', 'Family dentistry in C.V. Raman Nagar \u2014 preventive, cosmetic and restorative care for children and adults, all under one roof.',
+    '<div style="display:flex;flex-direction:column;gap:.5rem" class="hero-actions" ><a class="btn" href="#/book">' + ico('calendarCheck') + 'Book a visit</a>' +
+    '<a class="btn btn-outline" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I have a question about a treatment.') + '" target="_blank" rel="noreferrer">' + waIcon('text-wa') + 'Ask on WhatsApp</a></div>');
+
+  return hero + '<section class="section"><div class="container">' + serviceGrid() +
+    '<p class="tiny-muted" style="margin-top:1.5rem">* Package &amp; service charges displayed at the clinic. Walk in &amp; experience the difference.</p></div></section>' +
+    '<section class="section cream-section" style="border-block:1px solid rgba(217,226,220,.6)"><div class="container"><div class="split-even">' +
+      '<div>' + eyebrow('What to expect') + '<h2 class="h2">Your visit, step by step.</h2>' +
+        '<p class="lead" style="max-width:28rem">No rushed appointments. You will know what is happening, what it costs, and what comes next before treatment begins.</p>' +
+        '<div class="steps">' + steps + '</div></div>' +
+      '<div class="panel"><h2 class="serif" style="font-size:1.5rem;font-weight:600">Not sure where to start?</h2>' +
+        '<p class="lead-sm" style="margin-top:.5rem">Tell the clinic what is bothering you and we will suggest the right consultation \u2014 no guesswork needed.</p>' +
+        '<ul class="check-list" style="margin-top:1.25rem">' + points + '</ul>' +
+        '<div style="display:flex;flex-direction:column;gap:.5rem;margin-top:1.5rem">' +
+          '<a class="btn btn-block" href="#/book">Book a consultation' + ico('arrowRight') + '</a>' +
+          '<a class="btn btn-outline btn-block" href="' + CLINIC.phoneHref + '">' + ico('phone') + CLINIC.phoneDisplay + '</a></div></div>' +
+    '</div></div></section>' + ctaBand();
+}
+
+/* ---------- packages ---------- */
+function packagesPage() {
+  const chips = [{ icon: 'users', label: 'Individual & family packages' }, { icon: 'badgePercent', label: '20% senior citizen discount' }, { icon: 'phone', label: CLINIC.phoneDisplay }]
+    .map(function (c) { return '<span class="chip">' + ico(c.icon, 'ico-sm') + c.label + '</span>'; }).join('');
+
+  const items = function (list) {
+    return '<ul class="check-list">' + list.map(function (i) { return '<li><span class="tick">' + ico('check') + '</span>' + i + '</li>'; }).join('') + '</ul>';
+  };
+
+  const cards = '<div class="pkg-grid">' +
+    '<article class="pkg-card"><span class="badge badge-sage">Individual</span><h2>' + PACKAGES[0].name + '</h2><p class="aud">' + PACKAGES[0].audience + '</p>' +
+      items(PACKAGES[0].items) + '<a class="btn btn-outline btn-sm" style="justify-content:center" href="#/book">Book this package</a></article>' +
+    '<article class="pkg-card pine">' + tooth('tooth-ghost') + '<span class="badge badge-cream" style="position:relative">Most chosen for families</span><h2 style="position:relative">' + PACKAGES[1].name + '</h2><p class="aud">' + PACKAGES[1].audience + '</p>' +
+      items(PACKAGES[1].items) + '<a class="btn btn-cream btn-sm" style="justify-content:center" href="#/book">Book a family visit</a></article>' +
+    '<article class="pkg-card sand"><span class="badge badge-accent">Senior offer</span><h2>' + PACKAGES[2].name + '</h2><p class="aud">' + PACKAGES[2].audience + '</p>' +
+      '<div class="pkg-big"><p class="pct">20%</p><p>discount on all services</p></div>' +
+      '<a class="btn btn-outline btn-sm" style="justify-content:center;background:rgba(251,250,246,.7)" href="' + CLINIC.phoneHref + '">' + ico('phone', 'ico-sm') + 'Call to book</a></article></div>';
+
+  const hero = pageHero('Packages & offers', 'Simple packages for the whole family.', 'Choose a package that fits your household. Charges for packages and individual services are displayed at the clinic, so you know the cost before you commit.', '<div style="display:flex;flex-wrap:wrap;gap:.5rem">' + chips + '</div>');
+
+  return hero + '<section class="section"><div class="container">' + cards +
+    '<p class="tiny-muted" style="margin-top:1.5rem">* Package &amp; service charges displayed at the clinic. Walk in &amp; experience the difference.</p></div></section>' +
+    '<section class="section cream-section" style="border-block:1px solid rgba(217,226,220,.6)"><div class="container"><div class="split" style="grid-template-columns:.8fr 1.2fr">' +
+      '<div>' + eyebrow('Package questions') + '<h2 class="h2">What\'s included, clearly.</h2>' +
+        '<p class="lead" style="max-width:24rem">Every package starts with a consultation and check-up. If your family needs more than the package covers, the dentist will explain the options and costs first.</p>' +
+        '<div class="card card-pad" style="margin-top:1.5rem;padding:1.25rem"><p style="display:flex;align-items:center;gap:.5rem;font-size:.875rem;font-weight:600">' + ico('badgePercent', 'text-primary') + 'Senior citizen offer</p>' +
+          '<p class="tiny-muted" style="margin-top:.375rem">Patients aged 60 and above receive 20% off all services. Mention the offer at reception when you visit.</p>' +
+          '<a style="display:inline-flex;align-items:center;gap:.375rem;margin-top:.75rem;font-size:.75rem;font-weight:500;color:var(--whatsapp)" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I\'d like to know more about the packages and senior citizen offer.') + '" target="_blank" rel="noreferrer">' + waIcon('ico-sm') + 'Ask about packages on WhatsApp</a></div>' +
+        '<div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.25rem"><a class="btn" href="#/book">Book a visit' + ico('arrowRight') + '</a>' +
+          '<a class="btn btn-outline" href="' + CLINIC.phoneHref + '">' + ico('phone') + 'Call the clinic</a></div></div>' +
+      '<div class="fade-up">' + faqAccordion(FAQS.slice(2, 5)) + '</div>' +
+    '</div></div></section>' +
+    ctaBand('Not sure which package fits?', 'Call the clinic or send a WhatsApp message and the team will help you choose. Walk-ins are welcome every day.');
+}
+
+/* ---------- about ---------- */
+function aboutPage() {
+  const chips = [{ icon: 'clock', label: 'Open all 7 days' }, { icon: 'users', label: 'Family dentistry' }, { icon: 'shield', label: 'Walk-ins welcome' }]
+    .map(function (c) { return '<span class="chip">' + ico(c.icon, 'ico-sm') + c.label + '</span>'; }).join('');
+  const promises = [
+    { icon: 'users', title: 'Care for every age', body: 'Children, parents and grandparents are seen under one roof, with treatment planned for each stage of life.' },
+    { icon: 'shield', title: 'Prevention first', body: 'Regular check-ups, scaling and early treatment help your family avoid bigger dental problems later.' },
+    { icon: 'heart', title: 'Clear, honest pricing', body: 'Package and service charges are displayed at the clinic, so you know what you are choosing before treatment.' }
+  ].map(function (p) {
+    return '<div class="promise"><span class="pi">' + ico(p.icon) + '</span><div><h3>' + p.title + '</h3><p>' + p.body + '</p></div></div>';
+  }).join('');
+  const stats = [['7', 'days open'], ['20%', 'senior discount'], ['6', 'dental services']]
+    .map(function (s) { return '<div><b>' + s[0] + '</b><span>' + s[1] + '</span></div>'; }).join('');
+
+  const hero = pageHero('About us', 'A neighbourhood clinic for the whole family.', CLINIC.legalName + ' is a family dental clinic on Kaggadasapura Main Road in C.V. Raman Nagar, Bangalore. We keep treatment practical, explain your options clearly, and welcome walk-ins every day of the week.', '<div style="display:flex;flex-wrap:wrap;gap:.5rem">' + chips + '</div>');
+
+  return hero + '<section class="section"><div class="container"><div class="split-even" style="gap:3rem">' +
+    '<div>' + eyebrow('Our approach') + '<h2 class="h2">Family dentistry, done properly.</h2>' +
+      '<p class="lead">A dental visit should not feel rushed or confusing. We take time to explain what we see, what we recommend, and what it will cost \u2014 then let your family decide at its own pace.</p>' +
+      '<div style="margin-top:2rem">' + promises + '</div><div class="stats-row">' + stats + '</div></div>' +
+    '<div class="panel at-glance"><h2 class="serif" style="font-size:1.5rem;font-weight:600">At a glance</h2>' +
+      '<p class="tiny-muted" style="margin-top:.25rem">Everything you need for your first visit.</p>' +
+      '<div style="margin-top:1.5rem">' +
+        '<div class="row">' + ico('clock') + '<div><b>Consultation hours</b>' + CLINIC.hours.map(function (h) { return '<p>' + h.days + ': <span>' + h.time + '</span></p>'; }).join('') + '</div></div>' +
+        '<div class="row">' + ico('mapPin') + '<div><b>Clinic address</b><p>' + CLINIC.addressLine1 + '<br />' + CLINIC.addressLine2 + '</p></div></div>' +
+        '<a class="row" href="' + CLINIC.phoneHref + '">' + ico('phone') + '<div><b>Appointments</b><p>' + CLINIC.phoneDisplay + '<br />' + DOCTOR.name + '</p></div></a>' +
+      '</div>' +
+      '<div style="display:flex;flex-direction:column;gap:.5rem;margin-top:1rem">' +
+        '<a class="btn btn-block" href="#/book">Book a visit' + ico('arrowRight') + '</a>' +
+        '<a class="btn btn-outline btn-block" href="#/contact">Directions &amp; contact</a></div></div>' +
+    '</div></div></section>' +
+    '<section class="section cream-section" style="border-block:1px solid rgba(217,226,220,.6)"><div class="container">' + doctorFeature() + '</div></section>' +
+    ctaBand('Perfect Smile, Perfect You.', 'Come and meet the team in C.V. Raman Nagar \u2014 walk in during consultation hours or book ahead.');
+}
+
+
+/* ---------- booking ---------- */
+function bookingDetails() {
+  const hours = CLINIC.hours.map(function (h) {
+    return '<div style="display:flex;align-items:center;justify-content:space-between;gap:1rem;border-bottom:1px solid rgba(217,226,220,.7);padding:.75rem 0;font-size:.875rem"><span style="color:var(--muted-fg)">' + h.days + '</span><span style="font-weight:500">' + h.time + '</span></div>';
+  }).join('');
+  return '<div>' + eyebrow('Consultation hours') +
+    '<h2 class="h2">Open every day, morning and evening.</h2>' +
+    '<p class="lead">Walk in during consultation hours, or choose a preferred slot on the form and the clinic will confirm it with you.</p>' +
+    '<div class="card" style="margin-top:1.5rem;padding:1.25rem"><div style="display:flex;flex-direction:column">' + hours + '</div></div>' +
+    '<div style="display:flex;flex-direction:column;gap:.625rem;margin-top:.75rem">' +
+      '<a class="mini-link-card" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I\'d like to book an appointment.') + '" target="_blank" rel="noreferrer">' +
+        '<span class="mini-ico wa">' + waIcon() + '</span><span><b>Prefer to chat?</b><small>Message the clinic on WhatsApp</small></span>' + ico('arrowRight', 'arrow') + '</a>' +
+      '<a class="mini-link-card" href="' + CLINIC.phoneHref + '"><span class="mini-ico sage">' + ico('phone') + '</span>' +
+        '<span><b>' + CLINIC.phoneDisplay + '</b><small>Call or WhatsApp the clinic</small></span></a>' +
+      '<a class="mini-link-card" href="#/contact"><span class="mini-ico sand">' + ico('mapPin') + '</span>' +
+        '<span><b>Visit the clinic</b><small>' + CLINIC.addressLine2 + '</small></span>' + ico('arrowRight', 'arrow') + '</a>' +
+    '</div>' +
+    '<p class="tiny-muted" style="margin-top:1.25rem">Package and service charges are displayed at the clinic. Ask the team about individual, family and senior citizen options.</p></div>';
+}
+
+function bookingForm() {
+  if (state.bookingDone) {
+    return '<div class="success"><div class="success-ico">' + ico('check') + '</div>' +
+      '<h3>Your request is ready to send</h3>' +
+      '<p>We opened WhatsApp with your appointment details already written. Press send there and the clinic team will confirm your slot.</p>' +
+      '<div class="success-actions"><a class="btn btn-block" href="' + state.bookingDone.url + '" target="_blank" rel="noreferrer">' + waIcon() + 'Open WhatsApp again</a>' +
+      '<button class="btn btn-ghost" type="button" data-action="reset-booking">Book another appointment</button></div>' +
+      '<p class="tiny-muted" style="margin-top:1rem">A copy is saved to the clinic inbox in this browser.</p></div>';
+  }
+  const serviceOpts = SERVICES.map(function (s) { return '<option value="' + esc(s.name) + '">' + esc(s.name) + '</option>'; }).join('') +
+    '<option value="Not sure yet">Not sure yet \u2014 please advise</option>';
+  const timeOpts = TIME_SLOTS.map(function (t) { return '<option value="' + esc(t) + '">' + esc(t) + '</option>'; }).join('');
+
+  return '<div class="form-card"><div class="form-head"><div><h2>Appointment request</h2><p>We only ask for what the clinic needs.</p></div>' +
+    '<span class="badge badge-sage">~1 minute</span></div>' +
+    '<form id="booking-form" class="form-body" novalidate>' +
+      '<div class="form-row">' +
+        '<div class="field"><label for="bk-name">Full name</label><input class="input" id="bk-name" name="name" placeholder="Alex Morgan" autocomplete="name" /><p class="err" data-err="name"></p></div>' +
+        '<div class="field"><label for="bk-phone">Phone / WhatsApp</label><input class="input" id="bk-phone" name="phone" type="tel" placeholder="+91 99456 78901" autocomplete="tel" /><p class="err" data-err="phone"></p></div>' +
+      '</div>' +
+      '<div class="field"><label for="bk-email">Email <span class="opt">(optional)</span></label><input class="input" id="bk-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" /><p class="err" data-err="email"></p></div>' +
+      '<div class="field"><label for="bk-service">Treatment</label><select class="select" id="bk-service" name="service"><option value="">What brings you in?</option>' + serviceOpts + '</select><p class="err" data-err="service"></p></div>' +
+      '<div class="form-row">' +
+        '<div class="field"><label for="bk-date">Preferred date</label><input class="input" id="bk-date" name="date" type="date" min="' + todayISO() + '" /><p class="err" data-err="date"></p></div>' +
+        '<div class="field"><label for="bk-time">Preferred time</label><select class="select" id="bk-time" name="time"><option value="">Pick a window</option>' + timeOpts + '</select><p class="err" data-err="time"></p></div>' +
+      '</div>' +
+      '<div class="field"><label for="bk-notes">Anything we should know? <span class="opt">(optional)</span></label>' +
+        '<textarea class="textarea" id="bk-notes" name="notes" rows="3" placeholder="Nervous patient, insurance details, pain level, accessibility needs\u2026"></textarea><p class="err" data-err="notes"></p></div>' +
+      '<button class="btn btn-wa btn-lg btn-block" type="submit" style="border-radius:.75rem">' + waIcon() + 'Send request via WhatsApp' + ico('arrowRight') + '</button>' +
+      '<p class="form-note">Your details open in WhatsApp so the clinic team can reply quickly. A copy is also saved to the clinic inbox. We never share your information.</p>' +
+    '</form></div>';
+}
+
+function bookPage() {
+  const chips = [{ icon: 'calendarCheck', label: 'Open Mon\u2013Sun' }, { icon: 'users', label: 'Walk-ins welcome' }, { icon: 'phone', label: CLINIC.phoneDisplay }]
+    .map(function (c) { return '<span class="chip">' + ico(c.icon, 'ico-sm') + c.label + '</span>'; }).join('');
+  const help = '<section class="cream-section" style="border-top:1px solid rgba(217,226,220,.6);padding:3.5rem 0"><div class="container" style="display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:1rem">' +
+    '<div><h2 class="serif" style="font-size:1.5rem;font-weight:600">Need to see someone today?</h2>' +
+    '<p class="lead-sm" style="margin-top:.25rem">Call the clinic directly during consultation hours or send a WhatsApp message.</p></div>' +
+    '<div style="display:flex;flex-wrap:wrap;gap:.5rem"><a class="btn" href="' + CLINIC.phoneHref + '">' + ico('phone') + 'Call now</a>' +
+    '<a class="btn btn-outline" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I\'d like to check today\'s availability.') + '" target="_blank" rel="noreferrer">' + waIcon('text-wa') + 'WhatsApp</a></div></div></section>';
+  return pageHero('Appointments', 'Reserve a time that works for your family.', 'Send a request in under a minute. Your details are saved to the clinic inbox and open in WhatsApp so the team can confirm your slot.', '<div style="display:flex;flex-wrap:wrap;gap:.5rem">' + chips + '</div>') +
+    '<section class="section"><div class="container"><div class="split" style="grid-template-columns:.8fr 1.2fr;align-items:start">' + bookingDetails() + bookingForm() + '</div></div></section>' + help;
+}
+
+/* ---------- feedback ---------- */
+function starRow(rating) {
+  return '<div class="stars">' + [1, 2, 3, 4, 5].map(function (v) {
+    return '<button class="star-btn' + (rating >= v ? ' on' : '') + '" type="button" role="radio" aria-checked="' + (rating === v) + '" aria-label="' + v + ' star' + (v > 1 ? 's' : '') + '" data-action="rate" data-value="' + v + '">' +
+      '<svg viewBox="0 0 24 24" fill="' + (rating >= v ? 'currentColor' : 'none') + '" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3.1-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9z"/></svg></button>';
+  }).join('') + '<span class="stars-label" data-rating-label>' + (rating > 0 ? rating + '/5' : 'Tap to rate') + '</span></div>';
+}
+
+function feedbackForm() {
+  if (state.feedbackDone) {
+    return '<div class="success"><div class="success-ico pine">' + ico('check') + '</div>' +
+      '<h3>Thank you for sharing</h3>' +
+      '<p>Your feedback is in WhatsApp and ready to send. It goes straight to the clinic team \u2014 good or bad, every note helps us care for the next patient.</p>' +
+      '<div class="success-actions"><a class="btn btn-block" href="' + state.feedbackDone.url + '" target="_blank" rel="noreferrer">' + waIcon() + 'Open WhatsApp again</a>' +
+      '<button class="btn btn-ghost" type="button" data-action="reset-feedback">Leave more feedback</button></div>' +
+      '<p class="tiny-muted" style="margin-top:1rem">A copy is saved to the clinic inbox in this browser.</p></div>';
+  }
+  const treatmentOpts = SERVICES.map(function (s) { return '<option value="' + esc(s.name) + '">' + esc(s.name) + '</option>'; }).join('');
+  return '<div class="form-card"><div class="form-head"><div><h2>Share your experience</h2><p>Your words help the clinic care for the next patient better.</p></div></div>' +
+    '<form id="feedback-form" class="form-body" novalidate>' +
+      '<div class="field"><label>How was your visit?</label><div role="radiogroup" aria-label="Rating out of five stars" data-stars>' + starRow(state.rating) + '</div><p class="err" data-err="rating"></p></div>' +
+      '<div class="form-row">' +
+        '<div class="field"><label for="fb-name">Your name</label><input class="input" id="fb-name" name="name" placeholder="First name and initial" autocomplete="name" /><p class="err" data-err="name"></p></div>' +
+        '<div class="field"><label for="fb-treatment">Treatment <span class="opt">(optional)</span></label><select class="select" id="fb-treatment" name="treatment"><option value="">Which service?</option>' + treatmentOpts + '</select></div>' +
+      '</div>' +
+      '<div class="field"><label for="fb-message">Your experience</label><textarea class="textarea" id="fb-message" name="message" rows="4" placeholder="What went well? What could we have done better?"></textarea><p class="err" data-err="message"></p></div>' +
+      '<button class="btn btn-wa btn-lg btn-block" type="submit" style="border-radius:.75rem">' + waIcon() + 'Send feedback via WhatsApp</button>' +
+      '<p class="form-note">Your feedback opens in WhatsApp, ready to send to the clinic team. It is stored privately and never published without your permission.</p>' +
+    '</form></div>';
+}
+
+function feedbackPage() {
+  const chips = [{ icon: 'heart', label: 'Read by the clinic' }, { icon: 'shield', label: 'Kept private' }, { icon: 'check', label: 'Takes a minute' }]
+    .map(function (c) { return '<span class="chip">' + ico(c.icon, 'ico-sm') + c.label + '</span>'; }).join('');
+  const points = ['Opens in WhatsApp, ready to send to the clinic', 'Saved to the clinic inbox so nothing is missed', 'Never published without your permission']
+    .map(function (p) { return '<li><span class="tick">' + ico('check') + '</span>' + p + '</li>'; }).join('');
+  const notes = '<div>' + eyebrow('Your experience matters') + '<h2 class="h2">Honest feedback, straight to us.</h2>' +
+    '<p class="lead" style="max-width:28rem">Tell us what worked and what could have been better \u2014 from waiting times and comfort to how clearly the treatment was explained.</p>' +
+    '<div class="card" style="margin-top:2rem;padding:1.25rem"><div style="display:flex;align-items:flex-start;gap:.75rem"><span class="mini-ico sage" style="width:2.25rem;height:2.25rem">' + ico('heart') + '</span>' +
+      '<div><p style="font-size:.875rem;font-weight:600">Sent straight to the clinic</p><p class="tiny-muted" style="margin-top:.25rem">Your feedback is sent through WhatsApp and stored in the clinic inbox for the team to review.</p></div></div>' +
+      '<ul class="check-list" style="margin-top:1rem;border-top:1px solid rgba(217,226,220,.7);padding-top:1rem">' + points + '</ul></div>' +
+    '<div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.25rem"><a class="btn btn-outline" href="#/contact">Contact the clinic' + ico('arrowRight') + '</a>' +
+    '<a class="btn btn-ghost" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I\'d like to share some feedback about my visit.') + '" target="_blank" rel="noreferrer">' + waIcon('text-wa') + 'WhatsApp the clinic</a></div></div>';
+  return pageHero('Patient feedback', 'Tell us about your visit.', 'Whether it was a routine cleaning or a full family check-up, we would like to hear how it went. Your feedback helps us keep improving the care we give.', '<div style="display:flex;flex-wrap:wrap;gap:.5rem">' + chips + '</div>') +
+    '<section class="section"><div class="container"><div class="split" style="grid-template-columns:.9fr 1.1fr;align-items:start">' + notes + feedbackForm() + '</div></div></section>' +
+    ctaBand('Thank you for helping us improve.', 'If you are due for a check-up, book a visit or call the clinic \u2014 we are open all seven days.');
+}
+
+/* ---------- contact ---------- */
+function contactPage() {
+  const channels = '<div class="channels">' +
+    '<a class="channel" href="' + CLINIC.phoneHref + '"><span class="ci">' + ico('phone') + '</span><h2>Call the clinic</h2>' +
+      '<p class="big">' + CLINIC.phoneDisplay + '</p><small>' + DOCTOR.name + ' \u00b7 Mon\u2013Sun during consultation hours</small>' +
+      '<span class="go">Call now' + ico('arrowRight', 'ico-sm') + '</span></a>' +
+    '<a class="channel" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I\'d like to get in touch.') + '" target="_blank" rel="noreferrer"><span class="ci">' + waIcon() + '</span><h2>WhatsApp us</h2>' +
+      '<p class="big">Chat with the clinic team</p><small>Ask about timings, packages or a same-day visit.</small>' +
+      '<span class="go" style="color:var(--whatsapp)">Start a chat' + ico('arrowRight', 'ico-sm') + '</span></a>' +
+    '<a class="channel" href="' + CLINIC.mapsUrl + '" target="_blank" rel="noreferrer"><span class="ci">' + ico('mapPin') + '</span><h2>Walk in</h2>' +
+      '<p class="big" style="line-height:1.6">' + CLINIC.addressLine1 + '</p><small>' + CLINIC.addressLine2 + '</small>' +
+      '<span class="go">Get directions' + ico('arrowRight', 'ico-sm') + '</span></a></div>';
+
+  const hours = CLINIC.hours.map(function (h) { return '<div class="row"><dt>' + h.days + '</dt><dd>' + h.time + '</dd></div>'; }).join('');
+  const two = '<div class="contact-2">' +
+    '<div class="card card-pad"><div style="display:flex;align-items:center;justify-content:space-between;gap:.75rem;border-bottom:1px solid rgba(217,226,220,.7);padding-bottom:1.25rem">' +
+      '<h2 class="serif" style="font-size:1.25rem;font-weight:600">Consultation hours</h2><span class="badge badge-sage">7 days a week</span></div>' +
+      '<dl class="hours-list">' + hours + '</dl>' +
+      '<p class="offer-note">Patients aged 60 and above receive a 20% discount on all services. Mention the offer at reception.</p></div>' +
+    '<div class="directions">' + tooth('tooth-ghost') + '<div style="position:relative">' +
+      '<p style="font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:rgba(248,243,232,.5)">Getting here</p>' +
+      '<h2 class="serif" style="font-size:1.5rem;font-weight:600;margin-top:.75rem">' + CLINIC.legalName + '</h2>' +
+      '<p style="margin-top:1rem;font-size:.875rem;line-height:1.6;color:rgba(248,243,232,.7)">' + CLINIC.addressLine1 + '<br />' + CLINIC.addressLine2 + '</p>' +
+      '<p style="margin-top:.75rem;display:flex;align-items:center;gap:.375rem;font-size:.75rem;color:rgba(248,243,232,.5)">' + ico('clock', 'ico-sm') + 'Open every day, morning and evening</p>' +
+      '<div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.5rem"><a class="btn btn-cream" href="' + CLINIC.mapsUrl + '" target="_blank" rel="noreferrer">Get directions' + ico('arrowRight') + '</a>' +
+      '<a class="btn btn-pine-outline" href="#/book">' + ico('calendarCheck') + 'Book a visit</a></div></div></div></div>';
+
+  const faqSection = '<section class="section" style="background:rgba(255,255,255,.6);border-block:1px solid rgba(217,226,220,.6)"><div class="container"><div class="split" style="grid-template-columns:.8fr 1.2fr">' +
+    '<div>' + eyebrow('Good questions') + '<h2 class="h2">Before your first visit.</h2>' +
+      '<p class="lead" style="max-width:24rem">Walk-ins, timings, packages and fees. If your question is not here, call the clinic or send a WhatsApp message.</p>' +
+      '<a class="btn" style="margin-top:1.5rem" href="#/book">Book an appointment</a></div>' +
+    '<div>' + faqAccordion(FAQS) + '</div></div></div></section>';
+
+  return pageHero('Contact & visit', 'Find us in C.V. Raman Nagar.', CLINIC.visitNote + ' Walk in during morning or evening consultation hours, or call ahead and we will keep a slot ready for your family.',
+    '<div style="display:flex;flex-direction:column;gap:.5rem" class="hero-actions"><a class="btn" href="' + CLINIC.phoneHref + '">' + ico('phone') + 'Call ' + CLINIC.phoneDisplay + '</a>' +
+    '<a class="btn btn-outline" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 I\'d like directions to the clinic.') + '" target="_blank" rel="noreferrer">' + waIcon('text-wa') + 'WhatsApp the clinic</a></div>') +
+    '<section class="section"><div class="container">' + channels + two + '</div></section>' + faqSection + ctaBand();
+}
+
+
+/* ---------- auth ---------- */
+function authPage() {
+  const isOtp = state.authStep === 'otp';
+  const head = isOtp
+    ? '<h1>Check your email</h1><p>We sent a six-digit code to <span style="font-weight:500;color:var(--fg)">' + esc(state.authEmail) + '</span></p>'
+    : '<div class="auth-ico">' + ico('shield') + '</div><h1>Staff sign in</h1><p>Use your clinic email and we&apos;ll send a six-digit code. This console holds patient details.</p>';
+  const body = isOtp
+    ? '<form id="auth-otp-form"><div class="field"><label for="auth-code">Verification code</label>' +
+        '<input class="input" id="auth-code" name="code" inputmode="numeric" maxlength="6" placeholder="000000" style="text-align:center;letter-spacing:.45em;font-size:1.05rem" autocomplete="one-time-code" />' +
+        '<p class="err" data-err="code"></p><p class="tiny-muted" style="margin-top:.25rem">Demo mode: any six digits will sign you in.</p></div>' +
+        '<div style="display:flex;flex-direction:column;gap:.5rem;margin-top:1rem">' +
+        '<button class="btn btn-block" type="submit" style="border-radius:.75rem">Verify code' + ico('arrowRight') + '</button>' +
+        '<button class="btn btn-ghost" type="button" data-action="auth-restart">Use a different email</button></div></form>'
+    : '<form id="auth-email-form"><label for="auth-email" style="font-size:.75rem;font-weight:500">Clinic email</label>' +
+        '<div class="auth-row"><div class="input-wrap">' + ico('mail', 'ico-sm') + '<input class="input" id="auth-email" name="email" type="email" placeholder="you@clinic.com" autocomplete="email" required /></div>' +
+        '<button class="btn" type="submit" aria-label="Send sign-in code" style="width:2.75rem;padding:0;border-radius:.75rem;height:2.75rem">' + ico('arrowRight') + '</button></div>' +
+        '<p class="err" data-err="email" style="margin-top:.5rem"></p><p class="tiny-muted" style="margin-top:.5rem">Demo mode: no email is sent. Any 6-digit code works.</p></form>';
+
+  return '<main class="center-page">' +
+    '<div class="glow" style="top:-10rem;left:-10%;width:32rem;height:32rem;background:rgba(223,236,227,.6)"></div>' +
+    '<div class="glow" style="right:-6rem;bottom:-15%;width:28rem;height:28rem;background:rgba(242,230,211,.6)"></div>' +
+    '<div class="auth-card"><a href="#/" class="auth-brand" aria-label="' + CLINIC.name + ' home">' + brandHTML(false) + '</a>' +
+      '<div class="auth-panel"><div class="auth-head">' + head + '</div><div class="auth-body">' + body + '</div>' +
+        '<div class="auth-back"><a href="#/">' + ico('arrowLeft', 'ico-sm') + 'Back to the website</a></div>' +
+        '<div class="auth-strip">' + CLINIC.legalName + ' \u00b7 Internal use only</div>' +
+      '</div>' +
+      '<p style="margin-top:1.5rem;text-align:center;font-size:11px;color:var(--muted-fg)">Not staff? <a href="#/book" style="font-weight:500;color:var(--primary)">Book an appointment instead</a></p>' +
+    '</div></main>';
+}
+
+/* ---------- staff console ---------- */
+function statusBadge(status) {
+  const s = STATUS_STYLES[status] || STATUS_STYLES.new;
+  return '<span class="' + s.className + '">' + s.label + '</span>';
+}
+function requestCard(r) {
+  const phoneDigits = String(r.phone || '').replace(/\D/g, '');
+  const reply = 'Hi ' + String(r.name || '').split(' ')[0] + ', this is the clinic at ' + CLINIC.name + '. Thanks for your appointment request for ' + r.service + ' on ' + formatShortDate(r.preferredDate) + ' (' + r.preferredTime + '). Shall we confirm this slot?';
+  const opts = STATUS_ORDER.map(function (s) { return '<option value="' + s + '"' + (r.status === s ? ' selected' : '') + '>' + STATUS_STYLES[s].label + '</option>'; }).join('');
+  return '<article class="req"><div class="req-top"><div><div class="req-name"><h2>' + esc(r.name) + '</h2>' + statusBadge(r.status) + '</div>' +
+    '<p class="req-svc">' + esc(r.service) + '</p></div><span class="req-time">Received ' + formatReceived(r.created) + '</span></div>' +
+    '<div class="req-meta"><a href="tel:' + esc(r.phone) + '">' + ico('phone', 'ico-sm') + esc(r.phone) + '</a>' +
+      (r.email ? '<a href="mailto:' + esc(r.email) + '">' + ico('mail', 'ico-sm') + esc(r.email) + '</a>' : '') +
+      '<span>' + ico('calendar', 'ico-sm') + formatShortDate(r.preferredDate) + '</span>' +
+      '<span>' + ico('clock', 'ico-sm') + esc(r.preferredTime) + '</span></div>' +
+    (r.notes ? '<p class="req-notes">' + esc(r.notes) + '</p>' : '') +
+    '<div class="req-foot"><a class="btn btn-outline btn-xs" href="https://wa.me/' + phoneDigits + '?text=' + encodeURIComponent(reply) + '" target="_blank" rel="noreferrer">' + waIcon('ico-sm text-wa') + 'Reply on WhatsApp</a>' +
+      '<div class="req-status"><span>Status</span><select class="select select-mini" data-status="' + r.id + '" aria-label="Status for ' + esc(r.name) + '">' + opts + '</select></div></div></article>';
+}
+function feedbackCard(f) {
+  const stars = [1, 2, 3, 4, 5].map(function (v) {
+    return '<svg class="' + (v > f.rating ? 'off' : '') + '" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3.1-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9z"/></svg>';
+  }).join('');
+  return '<article class="fb"><div class="fb-top"><div><div class="fb-name"><h2>' + esc(f.name) + '</h2>' +
+    '<span class="' + (f.status === 'new' ? 'badge badge-dot' : 'badge badge-muted') + '">' + (f.status === 'new' ? 'New' : 'Reviewed') + '</span></div>' +
+    '<p class="fb-meta">' + esc(f.treatment || 'General visit') + ' \u00b7 ' + formatReceived(f.created) + '</p></div>' +
+    '<span class="stars-view" aria-label="' + f.rating + ' out of 5">' + stars + '</span></div>' +
+    '<p class="fb-msg">\u201c' + esc(f.message) + '\u201d</p>' +
+    '<div class="fb-foot"><span class="r">' + ico('quote', 'ico-sm') + f.rating + '/5 rating</span>' +
+    (f.status === 'new' ? '<button class="btn btn-outline btn-xs" type="button" data-action="review" data-id="' + f.id + '">Mark reviewed</button>' : '<span style="font-size:11px;color:var(--muted-fg)">Reviewed</span>') +
+    '</div></article>';
+}
+
+function dashboardPage() {
+  const staff = getStaff();
+  if (!staff) {
+    return '<main class="blocked"><div class="card"><div class="lock">' + ico('lock') + '</div>' +
+      '<h1>Staff sign in required</h1><p>The clinic console holds patient booking requests and feedback. Sign in with your clinic email to continue.</p>' +
+      '<p style="margin-top:.5rem">You\'ll come straight back to this page once you\'re signed in.</p>' +
+      '<div class="actions"><a class="btn btn-block" href="#/auth">Sign in</a><a class="btn btn-ghost btn-block" href="#/">Back to home</a></div></div></main>';
+  }
+  const requests = getBookings().slice().sort(function (a, b) { return b.created - a.created; });
+  const reviews = getFeedback().slice().sort(function (a, b) { return b.created - a.created; });
+  const newRequests = requests.filter(function (r) { return r.status === 'new'; }).length;
+  const scheduled = requests.filter(function (r) { return r.status === 'scheduled'; }).length;
+  const avg = reviews.length ? (reviews.reduce(function (t, r) { return t + r.rating; }, 0) / reviews.length).toFixed(1) : '\u2014';
+  const stats = [
+    { label: 'New requests', value: newRequests, icon: 'inbox' },
+    { label: 'Scheduled', value: scheduled, icon: 'calendar' },
+    { label: 'Total requests', value: requests.length, icon: 'clock' },
+    { label: 'Avg. feedback', value: avg, icon: 'star' }
+  ].map(function (s) {
+    return '<div class="stat"><span class="si">' + ico(s.icon) + '</span><b>' + s.value + '</b><span>' + s.label + '</span></div>';
+  }).join('');
+
+  const requestsBody = requests.length
+    ? '<div style="display:flex;flex-direction:column;gap:.75rem">' + requests.map(requestCard).join('') + '</div>'
+    : '<div class="empty"><span class="empty-ico">' + ico('inbox') + '</span><b>No appointment requests yet</b><p>When a patient sends the booking form, their details land here and in WhatsApp.</p><a class="btn btn-outline btn-sm" href="#/book">Open the booking form</a></div>';
+  const feedbackBody = reviews.length
+    ? '<div class="fb-grid">' + reviews.map(feedbackCard).join('') + '</div>'
+    : '<div class="empty"><span class="empty-ico">' + ico('inbox') + '</span><b>No feedback yet</b><p>Feedback submitted on the website appears here with its rating and treatment.</p><a class="btn btn-outline btn-sm" href="#/book">Open the booking form</a></div>';
+
+  return '<div style="min-height:100vh;background:var(--bg);color:var(--fg)">' +
+    '<header class="dash-header"><div class="container"><a href="#/" aria-label="' + CLINIC.legalName + ' home">' + brandHTML(false) + '</a>' +
+      '<div class="dash-head-actions"><a class="btn btn-ghost btn-sm view" href="#/">' + ico('arrowLeft', 'ico-sm') + 'View website</a>' +
+      '<button class="btn btn-outline btn-sm" type="button" data-action="signout">' + ico('logout', 'ico-sm') + 'Sign out</button></div></div></header>' +
+    '<main class="dash-main"><p class="dash-kicker">Staff console</p><h1 class="dash-title">Clinic overview</h1>' +
+      '<p class="dash-sub">' + (staff ? 'Signed in as ' + esc(staff) : 'Signed in to the clinic workspace') + ' \u00b7 Every booking and feedback form also opens a WhatsApp message for the patient.</p>' +
+      '<div class="stat-grid">' + stats + '</div>' +
+      '<div class="tabs" role="tablist"><button class="tab' + (state.tab === 'requests' ? ' active' : '') + '" role="tab" aria-selected="' + (state.tab === 'requests') + '" data-action="tab" data-tab="requests">Requests <span class="count">' + requests.length + '</span></button>' +
+        '<button class="tab' + (state.tab === 'feedback' ? ' active' : '') + '" role="tab" aria-selected="' + (state.tab === 'feedback') + '" data-action="tab" data-tab="feedback">Feedback <span class="count">' + reviews.length + '</span></button></div>' +
+      '<div class="tab-panel">' + (state.tab === 'requests' ? requestsBody : feedbackBody) + '</div>' +
+      '<div class="wa-test"><div class="left"><span class="wi">' + waIcon() + '</span><div><b>Test the patient WhatsApp flow</b>' +
+        '<p>Form messages open a prefilled chat with ' + CLINIC.phoneDisplay + '. In the real app the number is set with <code>VITE_CLINIC_WHATSAPP_NUMBER</code>.</p></div></div>' +
+        '<a class="btn btn-outline btn-sm" href="' + waLink('Hi ' + CLINIC.name + ' \u2014 this is a test message.') + '" target="_blank" rel="noreferrer">Open WhatsApp</a></div>' +
+      '<p class="dash-note">' + ico('lock', 'ico-sm') + 'Patient data is private. Do not share screenshots externally.</p></main></div>';
+}
+
+/* ---------- 404 ---------- */
+function notFoundPage() {
+  return '<main class="nf"><div class="glow" aria-hidden="true"></div><a href="#/" aria-label="' + CLINIC.legalName + ' home">' + brandHTML(false) + '</a>' +
+    '<p class="kicker">404 \u00b7 Page not found</p><h1>That page has been extracted.</h1>' +
+    '<p>The link may be old or mistyped. The clinic can still help you find the right place.</p>' +
+    '<div class="actions"><a class="btn" href="#/">' + ico('arrowLeft') + 'Back to the website</a><a class="btn btn-outline" href="#/book">Book an appointment</a></div></main>';
+}
+
+/* ---------- router ---------- */
+function currentPath() {
+  const raw = location.hash.replace(/^#/, '');
+  return raw || '/';
+}
+function render() {
+  const path = currentPath();
+  let html;
+  if (path === '/') html = shell(path, heroSection() + marqueeSection() + treatmentsPreview() + packagesPreview() + homePage());
+  else if (path === '/treatments') html = shell(path, treatmentsPage());
+  else if (path === '/packages') html = shell(path, packagesPage());
+  else if (path === '/about') html = shell(path, aboutPage());
+  else if (path === '/book') html = shell(path, bookPage());
+  else if (path === '/feedback') html = shell(path, feedbackPage());
+  else if (path === '/contact') html = shell(path, contactPage());
+  else if (path === '/auth') html = authPage();
+  else if (path === '/dashboard') html = dashboardPage();
+  else html = notFoundPage();
+  document.title = PAGE_TITLES[path] || ('Page not found \u2014 ' + CLINIC.legalName);
+  document.getElementById('app').innerHTML = html;
+}
+
+/* ---------- form helpers ---------- */
+function clearErrors(form) {
+  form.querySelectorAll('[data-err]').forEach(function (el) { el.textContent = ''; });
+  form.querySelectorAll('[aria-invalid]').forEach(function (el) { el.removeAttribute('aria-invalid'); });
+}
+function setError(form, name, message) {
+  const target = form.querySelector('[data-err="' + name + '"]');
+  if (target) target.textContent = message;
+  const field = form.querySelector('[name="' + name + '"]');
+  if (field) field.setAttribute('aria-invalid', 'true');
+}
+function val(form, name) {
+  const el = form.querySelector('[name="' + name + '"]');
+  return el ? String(el.value || '').trim() : '';
+}
+function handleBooking(form) {
+  clearErrors(form);
+  const values = {
+    name: val(form, 'name'), phone: val(form, 'phone'), email: val(form, 'email'),
+    service: val(form, 'service'), preferredDate: val(form, 'date'), preferredTime: val(form, 'time'), notes: val(form, 'notes')
+  };
+  const errors = {};
+  if (values.name.length < 2) errors.name = 'Please enter your full name.';
+  if (values.phone.length < 7) errors.phone = 'Enter a phone number the clinic can reach you on.';
+  if (values.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) errors.email = 'Enter a valid email address.';
+  if (!values.service) errors.service = 'Choose a treatment.';
+  if (!values.preferredDate) errors.date = 'Choose a preferred date.';
+  if (!values.preferredTime) errors.time = 'Choose a preferred time.';
+  if (values.notes.length > 600) errors.notes = 'Please keep notes under 600 characters.';
+  if (Object.keys(errors).length) {
+    Object.keys(errors).forEach(function (k) { setError(form, k, errors[k]); });
+    return;
+  }
+  const url = waLink(buildAppointmentMessage(values));
+  setBookings(getBookings().concat([{
+    id: 'b-' + Date.now(), name: values.name, phone: values.phone, email: values.email,
+    service: values.service, preferredDate: values.preferredDate, preferredTime: values.preferredTime,
+    notes: values.notes, status: 'new', created: Date.now()
+  }]));
+  try { window.open(url, '_blank', 'noopener,noreferrer'); } catch (e) {}
+  state.bookingDone = { url: url };
+  render();
+}
+function handleFeedback(form) {
+  clearErrors(form);
+  const values = { rating: state.rating, name: val(form, 'name'), treatment: val(form, 'treatment'), message: val(form, 'message') };
+  const errors = {};
+  if (!values.rating) errors.rating = 'Tap a star to rate your visit.';
+  if (values.name.length < 2) errors.name = 'Please tell us who you are.';
+  if (values.message.length < 10) errors.message = 'A sentence or two helps us act on your feedback.';
+  if (Object.keys(errors).length) {
+    Object.keys(errors).forEach(function (k) { setError(form, k, errors[k]); });
+    return;
+  }
+  const url = waLink(buildFeedbackMessage(values));
+  setFeedback(getFeedback().concat([{
+    id: 'f-' + Date.now(), name: values.name, rating: values.rating,
+    treatment: values.treatment, message: values.message, status: 'new', created: Date.now()
+  }]));
+  try { window.open(url, '_blank', 'noopener,noreferrer'); } catch (e) {}
+  state.feedbackDone = { url: url };
+  render();
+}
+
+/* ---------- events ---------- */
+document.addEventListener('click', function (event) {
+  const el = event.target.closest('[data-action]');
+  if (!el) return;
+  const action = el.getAttribute('data-action');
+  if (action === 'menu') {
+    state.menuOpen = !state.menuOpen;
+    render();
+  } else if (action === 'tab') {
+    state.tab = el.getAttribute('data-tab');
+    render();
+  } else if (action === 'rate') {
+    state.rating = Number(el.getAttribute('data-value')) || 0;
+    const wrap = el.closest('[data-stars]');
+    if (wrap) wrap.innerHTML = starRow(state.rating);
+    const form = el.closest('form');
+    const err = form && form.querySelector('[data-err="rating"]');
+    if (err) err.textContent = '';
+  } else if (action === 'review') {
+    const id = el.getAttribute('data-id');
+    setFeedback(getFeedback().map(function (f) { return f.id === id ? Object.assign({}, f, { status: 'reviewed' }) : f; }));
+    render();
+  } else if (action === 'signout') {
+    clearStaff();
+    state.tab = 'requests';
+    location.hash = '#/';
+  } else if (action === 'reset-booking') {
+    state.bookingDone = null;
+    render();
+  } else if (action === 'reset-feedback') {
+    state.feedbackDone = null;
+    state.rating = 0;
+    render();
+  } else if (action === 'auth-restart') {
+    state.authStep = 'email';
+    render();
+  }
+});
+
+document.addEventListener('change', function (event) {
+  const sel = event.target.closest('[data-status]');
+  if (!sel) return;
+  const id = sel.getAttribute('data-status');
+  const status = sel.value;
+  setBookings(getBookings().map(function (r) { return r.id === id ? Object.assign({}, r, { status: status }) : r; }));
+  render();
+  const notice = document.createElement('div');
+  notice.textContent = 'Marked as ' + (STATUS_STYLES[status] ? STATUS_STYLES[status].label.toLowerCase() : status);
+  notice.style.cssText = 'position:fixed;left:50%;bottom:1.5rem;transform:translateX(-50%);background:var(--pine);color:var(--cream);padding:.6rem 1rem;border-radius:999px;font-size:.75rem;z-index:80;box-shadow:0 10px 30px -10px rgba(0,0,0,.4)';
+  document.body.appendChild(notice);
+  setTimeout(function () { notice.remove(); }, 2200);
+});
+
+document.addEventListener('submit', function (event) {
+  const form = event.target;
+  if (form.id === 'booking-form') { event.preventDefault(); handleBooking(form); }
+  else if (form.id === 'feedback-form') { event.preventDefault(); handleFeedback(form); }
+  else if (form.id === 'auth-email-form') {
+    event.preventDefault();
+    const email = val(form, 'email');
+    const err = form.querySelector('[data-err="email"]');
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { if (err) err.textContent = 'Enter a valid clinic email address.'; return; }
+    state.authEmail = email;
+    state.authStep = 'otp';
+    render();
+  } else if (form.id === 'auth-otp-form') {
+    event.preventDefault();
+    const code = val(form, 'code');
+    const err = form.querySelector('[data-err="code"]');
+    if (!/^\d{6}$/.test(code)) { if (err) err.textContent = 'Enter the six-digit code from your email.'; return; }
+    setStaff(state.authEmail || 'staff@smileaura.clinic');
+    state.authStep = 'email';
+    location.hash = '#/dashboard';
+  }
+});
+
+window.addEventListener('hashchange', function () {
+  state.menuOpen = false;
+  state.bookingDone = null;
+  state.feedbackDone = null;
+  state.rating = 0;
+  window.scrollTo(0, 0);
+  render();
+});
+
+/* ---------- boot ---------- */
+seedDemo();
+if (!location.hash) {
+  try { history.replaceState(null, '', '#/'); } catch (e) { location.hash = '#/'; }
+}
+render();
+
+</script>
+</body>
+</html>
